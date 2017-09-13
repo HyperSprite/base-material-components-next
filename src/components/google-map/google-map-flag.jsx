@@ -15,3 +15,9 @@ const GoogleMapFlag = ({ text = 'test', width = 200, height = 100, bcColor = '#F
 GoogleMapFlag.propTypes = propTypes;
 
 export default GoogleMapFlag;
+
+// text="test"
+// width={200}
+// height={100}
+// bcColor="#FAFAFA"
+// txtColor="#B71C1C"

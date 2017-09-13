@@ -5,8 +5,8 @@ import googlePolyline from 'google-polyline';
 import Dimensions from 'react-dimensions';
 
 import ViewRouteMapPolylineDraw from './google-map-polyline-draw';
-// import ViewRouteMapFlag from './google-map-flag';
-import styles from './styles';
+import ViewRouteMapFlag from './google-map-flag';
+import googleMapStyle from './map-styles';
 
 class GoogleMapWithPolyline extends React.Component {
 
@@ -29,14 +29,24 @@ class GoogleMapWithPolyline extends React.Component {
     };
   }
 
+
   render() {
+    const mapOptions = {
+      styles: googleMapStyle,
+      mapTypeControl: true,
+      // disableDefaultUI: true,
+      mapTypeId: 'terrain',
+      rotateControl: false,
+      fullscreenControl: false,
+    };
     const convertMapData = (encodedPolyline) => {
       return googlePolyline.decode(encodedPolyline).map((eP) => {
         return { lat: eP[0], lng: eP[1] };
       });
     };
-
-    console.log('width', this.props.containerWidth, 'height', this.props.containerHeight),
+    console.log('map', this.state.map);
+    console.log('maps', this.state.maps);
+    console.log('width', this.props.containerWidth, 'height', this.props.containerHeight);
 
     this.mapData = convertMapData(this.props.mapPolyline);
     return (
@@ -47,24 +57,29 @@ class GoogleMapWithPolyline extends React.Component {
               this.setState({ map, maps, mapLoaded: true });
             }}
             yesIWantToUseGoogleMapApiInternals
+
             center={this.mapData[0]}
             defaultZoom={this.props.zoom}
             bootstrapURLKeys={{
               key: process.env.REACT_APP_GOOGLE_MAPS_WEB,
               language: 'en',
             }}
-            options={{ styles }}
+            options={mapOptions}
           >
-            {/* <ViewRouteMapFlag
+            <ViewRouteMapFlag
               lat={this.mapData[0].lat}
               lng={this.mapData[0].lng}
-              text={'Start'}
-            /> */}
-            {/* <ViewRouteMapFlag
+              width={20}
+              height={20}
+              text={'S'}
+            />
+            <ViewRouteMapFlag
               lat={this.mapData[this.mapData.length - 1].lat}
               lng={this.mapData[this.mapData.length - 1].lng}
-              text={'End'}
-            /> */}
+              width={20}
+              height={20}
+              text={'E'}
+            />
           </GoogleMapReact>
         }
         { this.state.mapLoaded &&
