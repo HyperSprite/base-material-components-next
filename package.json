@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@turf/bbox": "^4.7.3",
+    "@turf/helpers": "^4.7.3",
     "google-map-react": "^0.24.0",
     "google-polyline": "^1.0.0",
     "invert-color": "^1.0.0",
@@ -16,12 +18,20 @@
     "typeface-roboto": "0.0.35"
   },
   "devDependencies": {
-    "react-scripts": "^1.0.13"
+    "react-scripts": "^1.0.13",
+    "react-styleguidist": "^6.0.24",
+    "@storybook/react": "^3.2.8",
+    "@storybook/addon-actions": "^3.2.6",
+    "@storybook/addon-links": "^3.2.6"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
   }
 }

@@ -5,7 +5,7 @@ import theme from '../../styles/theme';
 
 const palette = theme.palette;
 const ColorBox = () => (
-  <div style={{ display: 'flex', flexWrap: 'wrap', width: 1000 }}>
+  <div style={{ display: 'flex', flexWrap: 'wrap' }}>
     {Object.entries(palette).map(p => (
       <GoogleMapFlag
         key={p[0]}

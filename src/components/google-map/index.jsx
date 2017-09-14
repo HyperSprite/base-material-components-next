@@ -3,10 +3,13 @@ import PropTypes from 'prop-types';
 import GoogleMapReact from 'google-map-react';
 import googlePolyline from 'google-polyline';
 import Dimensions from 'react-dimensions';
+import { fitBounds } from 'google-map-react/utils';
+import turfHelpers from '@turf/helpers';
+import bbox from '@turf/bbox';
 
 import ViewRouteMapPolylineDraw from './google-map-polyline-draw';
 import ViewRouteMapFlag from './google-map-flag';
-import googleMapStyle from './map-styles';
+import googleMapStyles from './map-styles';
 
 class GoogleMapWithPolyline extends React.Component {
 
@@ -32,23 +35,49 @@ class GoogleMapWithPolyline extends React.Component {
 
   render() {
     const mapOptions = {
-      styles: googleMapStyle,
+      styles: googleMapStyles,
       mapTypeControl: true,
       // disableDefaultUI: true,
       mapTypeId: 'terrain',
       rotateControl: false,
       fullscreenControl: false,
     };
+
     const convertMapData = (encodedPolyline) => {
       return googlePolyline.decode(encodedPolyline).map((eP) => {
         return { lat: eP[0], lng: eP[1] };
       });
     };
-    console.log('map', this.state.map);
-    console.log('maps', this.state.maps);
-    console.log('width', this.props.containerWidth, 'height', this.props.containerHeight);
+
+    const getCenterAndZoom = (mapPolyline) => {
+
+      const routeDataLS = turfHelpers.lineString(convertMapData(this.props.mapPolyline)
+        .map(rD => [rD.lat, rD.lng]));
+      const newbounds = bbox(routeDataLS);
+
+      const bounds = {
+        nw: {
+          lat: newbounds[2],
+          lng: newbounds[1],
+        },
+        se: {
+          lat: newbounds[0],
+          lng: newbounds[3],
+        },
+      };
+
+      console.log('\n\nbounds', bounds);
+
+      const size = {
+        width: 400, // Map width in pixels
+        height: 400, // Map height in pixels
+      };
+      const result = fitBounds({ nw: bounds.nw, se: bounds.se }, size);
+      return result;
+    };
 
     this.mapData = convertMapData(this.props.mapPolyline);
+    this.centerZoom = getCenterAndZoom(this.props.mapPolyline);
     return (
       <div style={{ backgroundColor: 'black', width: this.props.containerWidth, height: 400 }}>
         { this.mapData &&
@@ -58,8 +87,8 @@ class GoogleMapWithPolyline extends React.Component {
             }}
             yesIWantToUseGoogleMapApiInternals
 
-            center={this.mapData[0]}
-            defaultZoom={this.props.zoom}
+            center={this.centerZoom.center}
+            defaultZoom={this.centerZoom.zoom}
             bootstrapURLKeys={{
               key: process.env.REACT_APP_GOOGLE_MAPS_WEB,
               language: 'en',
