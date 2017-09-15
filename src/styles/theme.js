@@ -20,6 +20,7 @@ const grey300 = '#E0E0E0';
 const grey400 = '#BDBDBD';
 const grey500 = '#9E9E9E';
 const grey900 = '#212121';
+const green800 = '#2E7D32';
 
 export default {
   spacing,
@@ -43,6 +44,7 @@ export default {
     canvasColor: grey50,
     // disabledColor: fade(grey900, 0.3),
     pickerHeaderColor: red900,
+    accent8Color: green800,
     // clockCircleColor: fade(grey900, 0.07),
     // administrative_geometry_stroke: '#c9b2a6',
     // administrative_land_parcel_geometry_stroke: '#dcd2be',

@@ -24,18 +24,17 @@ const defaultProps = {
   txtColor: '#B71C1C',
 };
 
-const GoogleMapFlag = ({ text, width, height, bcColor, txtColor }) => (
+const DivSimpleText = ({ text, width, height, bcColor, txtColor }) => (
   <div
     style={{ width, height, backgroundColor: bcColor, color: txtColor }}
   >
     {text}
   </div>);
 
-GoogleMapFlag.propTypes = propTypes;
-GoogleMapFlag.defaultProps = defaultProps;
+DivSimpleText.propTypes = propTypes;
+DivSimpleText.defaultProps = defaultProps;
 
-
-export default GoogleMapFlag;
+export default DivSimpleText;
 
 // text="test"
 // width={200}
