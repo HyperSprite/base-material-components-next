@@ -18,6 +18,6 @@ MapPin example:
 />
 ```
 
-Lat and Lng are given to this compoent when combined with google-map-react  
-and is sized and margined to land on the correct location.  
+Lat and Lng are given to this component when combined with google-map-react  
+and is sized and margin to land on the correct location.  
 Without this, the pin would be low and to the right.

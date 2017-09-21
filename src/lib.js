@@ -1,4 +1,5 @@
 import { addSeconds, startOfDay, format } from 'date-fns';
+import warning from 'warning';
 
 const lib = {};
 
@@ -100,6 +101,15 @@ lib.getLastInArray = (arr, arrType) => {
     item = arr[arr.length - 1][arrType];
   }
   return item;
+};
+
+lib.capitalizeFirstLetter = (str) => {
+  warning(
+    typeof str === 'string',
+    'lib.capitalizeFirstLetter(str) expects a string argument.',
+  );
+
+  return str.charAt(0).toUpperCase() + str.slice(1);
 };
 
 export default lib;
