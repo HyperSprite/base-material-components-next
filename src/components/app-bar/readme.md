@@ -1,0 +1,5 @@
+AppBar example:
+
+```js
+<AppBar />
+```

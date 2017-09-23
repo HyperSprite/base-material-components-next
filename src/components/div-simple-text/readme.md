@@ -2,10 +2,10 @@ DivSimpleText example:
 
 ```js
 <DivSimpleText
-  text={`${JSON.stringify(googleMapStyle)}`}
+  text={`Simple Text Div`}
   width={600}
-  height={600}
-  bcColor="#FAFAFA"
-  txtColor="#B71C1C"
+  height={300}
+  bcColor="#eeeeee"
+  txtColor="#770000"
 />
 ```
