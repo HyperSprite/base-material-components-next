@@ -1,6 +1,7 @@
 Icon example:
 
 **Imports**
+
 > import classNames from 'classnames';
 > import { withStyles } from 'material-ui/styles';
 > import TestIcon from './test-icon';

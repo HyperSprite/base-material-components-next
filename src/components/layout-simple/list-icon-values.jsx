@@ -2,140 +2,141 @@ import React from 'react';
 import ReactIcon from 'mdi-react/ReactIcon';
 import MenuIcon from 'mdi-react/MenuIcon';
 import AutoFixIcon from 'mdi-react/AutoFixIcon';
+import SpeedometerIcon from 'mdi-react/SpeedometerIcon';
 
 import Icon from '../icon';
 
 export default [
   {
     key: 1,
-    banner: (<Icon svgIcon={ReactIcon} />),
+    banner: <Icon svgIcon={ReactIcon} />,
     content: (
-      <div>
-        <div>{'<no options>'}</div>
-        <div>{'svgIcon={ReactIcon}'}</div>
-      </div>
+      <span>
+        {'<no options>'}<br />
+        {'svgIcon={ReactIcon}'}
+      </span>
     ),
   },
   {
     key: 2,
-    banner: <Icon size="xs" svgIcon={ReactIcon} />,
+    banner: <Icon size="lg" svgIcon={ReactIcon} />,
     content: (
-      <div>
-        <div>{'size="xs"'}</div>
-        <div>{'svgIcon={ReactIcon}'}</div>
-      </div>
+      <span>
+        {'size="xs"'}<br />
+        {'svgIcon={ReactIcon}'}
+      </span>
     ),
   },
   {
     key: 3,
     banner: <Icon color="primary" size="sm" svgIcon={ReactIcon} />,
     content: (
-      <div>
-        <div>{'color="primary"'}</div>
-        <div>{'size="sm"'}</div>
-        <div>{'svgIcon={ReactIcon}'}</div>
-      </div>
+      <span>
+        {'color="primary"'}<br />
+        {'size="sm"'}<br />
+        {'svgIcon={ReactIcon}'}
+      </span>
     ),
   },
   {
     key: 4,
-    banner: <Icon color="accent" pointer size="md" svgIcon={ReactIcon} />,
+    banner: <Icon color="accent" pointer size="md" svgIcon={AutoFixIcon} />,
     content: (
-      <div>
-        <div>{'color="accent"'}</div>
-        <div>{'pointer'}</div>
-        <div>{'size="md"'}</div>
-        <div>{'svgIcon={ReactIcon}'}</div>
-      </div>
+      <span>
+        {'color="accent"'}<br />
+        {'pointer'}<br />
+        {'size="md"'}<br />
+        {'svgIcon={ReactIcon}'}
+      </span>
     ),
   },
   {
     key: 5,
     banner: <Icon color="primary" inverse size="lg" svgIcon={MenuIcon} />,
     content: (
-      <div>
-        <div>{'color="primary"'}</div>
-        <div>{'inverse'}</div>
-        <div>{'size="lg"'}</div>
-        <div>{'svgIcon={MenuIcon}'}</div>
-      </div>
+      <span>
+        {'color="primary"'}<br />
+        {'inverse'}<br />
+        {'size="lg"'}<br />
+        {'svgIcon={MenuIcon}'}
+      </span>
     ),
   },
   {
     key: 6,
-    banner: <Icon color="accent" inverse size="xl" svgIcon={AutoFixIcon} />,
+    banner: <Icon color="accent" inverse size="xl" svgIcon={SpeedometerIcon} />,
     content: (
-      <div>
-        <div>{'color="accent"'}</div>
-        <div>{'inverse'}</div>
-        <div>{'size="xl"'}</div>
-        <div>{'svgIcon={AutoFixIcon}'}</div>
-      </div>
+      <span>
+        {'color="accent"'}<br />
+        {'inverse'}<br />
+        {'size="xl"'}<br />
+        {'svgIcon={AutoFixIcon}'}
+      </span>
     ),
   },
   {
     key: 7,
     banner: <Icon />,
     content: (
-      <div>
-        <div>{'<no options>'}</div>
-        <div>{'<no icon>'}</div>
-      </div>
+      <span>
+        {'<no options>'}<br />
+        {'<no icon>'}
+      </span>
     ),
   },
   {
     key: 8,
     banner: <Icon size="xs" inverse />,
     content: (
-      <div>
-        <div>{'size="xs"'}</div>
-        <div>{'inverse'}</div>
-        <div>{'<no icon>'}</div>
-      </div>
+      <span>
+        {'size="xs"'}<br />
+        {'inverse'}<br />
+        {'<no icon>'}
+      </span>
     ),
   },
   {
     key: 9,
     banner: <Icon color="primary" size="sm" />,
     content: (
-      <div>
-        <div>{'color="primary"'}</div>
-        <div>{'size="sm"'}</div>
-        <div>{'<no icon>'}</div>
-      </div>
+      <span>
+        {'color="primary"'}<br />
+        {'size="sm"'}<br />
+        {'<no icon>'}
+      </span>
     ),
   },
   {
     key: 10,
     banner: <Icon color="accent" pointer size="md" />,
     content: (
-      <div>
-        <div>{'color="accent"'}</div>
-        <div>{'pointer size="md"'}</div>
-        <div>{'<no icon>'}</div>
-      </div>
+      <span>
+        {'color="accent"'}<br />
+        {'pointer size="md"'}<br />
+        {'<no icon>'}
+      </span>
     ),
   },
   {
     key: 11,
     banner: <Icon color="primary" inverse size="lg" />,
     content: (
-      <div>
-        <div>{'color="primary"'}</div>
-        <div>{'inverse size="lg"'}</div>
-        <div>{'<no icon>'}</div>
-      </div>
+      <span>
+        {'color="primary"'}<br />
+        {'inverse size="lg"'}<br />
+        {'<no icon>'}
+      </span>
     ),
   },
   {
     key: 12,
     banner: <Icon color="accent" inverse size="xl" />,
     content: (
-      <div>
-        <div>{'color="accent"'}</div>
-        <div>{'inverse size="xl"'}</div>
-        <div>{'<no icon>'}</div>
-      </div>
+      <span>
+        {'color="accent"'}<br />
+        {'inverse size="xl"'}<br />
+        {'<no icon>'}
+      </span>
     ),
   },
 ];

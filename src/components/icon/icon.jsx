@@ -8,10 +8,15 @@ import TestIcon from './test-icon';
 
 const propTypes = {
   classes: PropTypes.object.isRequired,
+  /** color=<option> - "primary" for primary palette color, "accent" for secondary color */
   color: PropTypes.string,
+  /** inverse - (bool) the icon will swap the colors */
   inverse: PropTypes.bool,
+  /** pointer - (bool) the icon look like a link */
   pointer: PropTypes.bool,
+  /** size=<option> - xs: 12x12, sm: 24x24, md: 28x28, lg: 72x72, xl: 120x120 */
   size: PropTypes.string,
+  /** This is an icon component from mdi-react */
   svgIcon: PropTypes.any,
 };
 
@@ -98,15 +103,12 @@ const Icon = (props) => {
     classNameProp,
   );
 
-  // if (svgIcon) {
-    const SVGIcon = props.svgIcon;
-    return (
-      <div className={classNames(classes.root, className)} >
-        <SVGIcon className={classNames(classes.root, className)} />
-      </div>
-    );
-  // }
-  // return null;
+  const SVGIcon = svgIcon;
+  return (
+    <div className={classNames(classes.root, className)} >
+      <SVGIcon className={classNames(classes.root, className)} />
+    </div>
+  );
 };
 
 Icon.propTypes = propTypes;
