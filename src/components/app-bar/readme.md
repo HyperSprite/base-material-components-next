@@ -1,5 +1,5 @@
-AppBar example:
+ARAAppBar example:
 
 ```js
-<AppBar />
+<ARAAppBar />
 ```

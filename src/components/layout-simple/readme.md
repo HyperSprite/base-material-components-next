@@ -1,0 +1,5 @@
+LayoutSimple example:
+
+```js
+<LayoutSimple />
+```

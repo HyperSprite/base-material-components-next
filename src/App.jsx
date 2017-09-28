@@ -3,10 +3,12 @@ import 'typeface-roboto';
 import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles';
 import Paper from 'material-ui/Paper';
 
+import ActivitySingle from './components/activity-single';
 import AppBar from './components/app-bar';
 import GoogleMap from './components/google-map';
 import Geolocation from './components/geolocation';
 
+import BarChartBox from './components/bar-chart-box';
 import ColorBox from './components/colorbox';
 import Card from './components/card';
 import Loading from './components/loading';
@@ -25,10 +27,12 @@ class App extends Component {
       <MuiThemeProvider theme={theme} >
         <div className="App">
           <AppBar /> {/* icon={<ARAIcon color="primary" inverse size="md" />} */}
-          <GoogleMap
+          {/* <GoogleMap
             mapPolyline={routeData.map.polyline}
-          />
-          <Paper style={{ backgroundColor: '#eeeeee'}}>
+          /> */}
+          <Paper style={{ backgroundColor: '#eeeeee'}} >
+            <ActivitySingle />
+            <BarChartBox />
             <LayoutSimple />
 
 

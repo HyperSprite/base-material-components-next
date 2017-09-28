@@ -1,10 +1,30 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { withStyles } from 'material-ui/styles';
 import Paper from 'material-ui/Paper';
 import Grid from 'material-ui/Grid';
 import Card, { CardContent } from 'material-ui/Card';
 
 import DivSimpleText from '../div-simple-text';
+
+const propTypes = {
+  /** Name of the palette, like "primary" */
+  name: PropTypes.string,
+  /** An object as name: hex, e.g. white: '#ffffff' */
+  palette: PropTypes.object,
+  classes: PropTypes.object,
+};
+
+const defaultProps = {
+  name: '',
+  palette: {
+    600: '#aa0000',
+    700: '#910000',
+    800: '#770000',
+    900: '#5e0000',
+  },
+  classes: {},
+};
 
 const styles = theme => ({
   root: {
@@ -74,5 +94,8 @@ const ColorBox = ({ name, palette, classes }) => (
     </div>
   </div>
 );
+
+ColorBox.propTypes = propTypes;
+ColorBox.defaultProps = defaultProps;
 
 export default withStyles(styles)(ColorBox);

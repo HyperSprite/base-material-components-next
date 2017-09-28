@@ -9,7 +9,7 @@ import bbox from '@turf/bbox';
 import MapPin from '../map-pin';
 
 import ViewRouteMapPolylineDraw from './google-map-polyline-draw';
-import googleMapStyles, { palette } from './map-styles';
+import googleMapStyles from './map-styles';
 
 class GoogleMapWithPolyline extends React.Component {
 
@@ -94,14 +94,14 @@ class GoogleMapWithPolyline extends React.Component {
               <MapPin
                 lat={this.mapData[this.mapData.length - 1].lat}
                 lng={this.mapData[this.mapData.length - 1].lng}
-                color={palette.textColor}
+                color="start"
               />
             }
             { this.state.mapLoaded &&
               <MapPin
                 lat={this.mapData[0].lat}
                 lng={this.mapData[0].lng}
-                color={palette.accent8Color}
+                color="end"
               />
             }
           </GoogleMapReact>

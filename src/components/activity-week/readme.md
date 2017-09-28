@@ -1,0 +1,5 @@
+WeeklyStats example:
+
+```js
+
+```

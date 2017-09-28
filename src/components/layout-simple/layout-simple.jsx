@@ -5,10 +5,12 @@ import Paper from 'material-ui/Paper';
 import Grid from 'material-ui/Grid';
 import Card, { CardContent } from 'material-ui/Card';
 import Typography from 'material-ui/Typography';
-import ReactIcon from 'mdi-react/ReactIcon';
-import MenuIcon from 'mdi-react/MenuIcon';
 
 import listIconValues from './list-icon-values';
+
+const propTypes = {
+  classes: PropTypes.object.isRequired,
+};
 
 const styles = theme => ({
   root: {
@@ -49,7 +51,7 @@ function LayoutSimple(props) {
         <Grid item xs={9}>
           <Paper className={classes.paper}>
             {listIconValues.map(lIV => (
-              <Card key={lIV.key} className={classes.card}>
+              <Card key={lIV.key} className={classes.card} >
                 <div className={classes.banner}>
                   {lIV.banner}
                 </div>
@@ -68,8 +70,6 @@ function LayoutSimple(props) {
   );
 }
 
-LayoutSimple.propTypes = {
-  classes: PropTypes.object.isRequired,
-};
+LayoutSimple.propTypes = propTypes;
 
 export default withStyles(styles)(LayoutSimple);

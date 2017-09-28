@@ -1,3 +1,1 @@
-import geolocation from './geolocatioin-container';
-
-export default geolocation;
+export { default } from './geolocatioin-container';

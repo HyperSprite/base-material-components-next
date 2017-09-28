@@ -1,0 +1,1067 @@
+{
+    "index": 7,
+    "startDate": "2017-08-07",
+    "week": [
+        {
+            "_id": "598ce017bb18a216a7069d3d",
+            "updatedAt": "2017-08-10T22:37:14.618Z",
+            "createdAt": "2017-08-10T22:37:11.681Z",
+            "activityId": 1123817137,
+            "resource_state": 3,
+            "external_id": "61dadecf-3865-4a91-a505-1fc8a97a5a77.fit",
+            "upload_id": 1228555225,
+            "athlete": {
+                "resource_state": 1,
+                "id": 2088740,
+                "_id": "598ce01abb18a216a7069e11"
+            },
+            "name": "St. Kevins to the hairpin and up the Blvd.",
+            "distance": 28315.4,
+            "moving_time": 5123,
+            "elapsed_time": 7226,
+            "total_elevation_gain": 402,
+            "type": "Ride",
+            "start_date": "2017-08-08T15:41:32Z",
+            "start_date_local": "2017-08-08T09:41:32Z",
+            "timezone": "(GMT-07:00) America/Denver",
+            "achievement_count": 9,
+            "map": {
+                "summary_polyline": "k|pnF|swgS~@{@iA{JvCq@dSpzAmJ`A_CrDeOzyAkJnBqEfFqCxK]hKqFhNgG~f@mHbPoIfFwU{EwBbJuOwBe\\lEeTQaL~BkPtMqDrOuFxFaPtc@uChPb@jI{Azc@uTpCwKzGqB~\\aHhPc@jW}C~JoBdf@pB}h@bDkID_XzHoN?{InCwUvJaEjT{BbBuc@g@mJhD}Q`Ok`@`G{GnDgOtPaN|}@yHvOxBnByI~TfFjJiEpNhOhn@bNxv@bZpGj@oEeToEyeA{Jof@c@{\\tAuUcDciAwGkHnHrEaJiExCSuC}BcG{@_RkuAfAnKkFfB~@pHgAuF",
+                "resource_state": 3,
+                "polyline": "k|pnF|swgSr@UHK@YKyBQoAMc@Cg@Gu@Se@@IRMZIrA[N?FDDLRz@XjBv@zFNr@l@~El@hERfBZlBtArLh@hDx@jHbAvGx@nG\\`Dd@|CATIVQLSBgAAyBBmAFm@LOHYVe@l@]x@Qh@Q~@g@lFc@lD_@jFKp@W`Cc@pDIjAUbB_@xDo@|GcAhJcAjKWzCa@tDM|AIROJuAp@ODa@Fc@@sAIO?a@D_@Pk@`@qBnB]f@Ul@eBpFWrASrAMfBCrB@`BGr@EVa@zAc@zBYf@e@f@g@p@a@p@M\\S~@Kx@CbAI~AG`@]rB[tAm@dC]lBOpBCp@YpCY~DMr@IVMTwAnBc@x@g@nAuAlEYt@KNWX[P_ANe@Ra@Zk@p@k@f@[R_@La@Dc@C]MwA}@k@Qy@K}DQeAWcDgAMAMDMJKTYnBGzBEZMb@GFQFwABo@CmB]_@Qg@[o@Uo@Gy@C_@G]Ag@HkBt@kAR}@Jk@@aBJcCZq@JsBTiCDQDWN[D]AmA_@u@Ms@EsBEk@@qAJuAB_ALgAHq@LgEbAwBXo@RaBdAgA|@o@r@qBfCi@h@e@Ts@Tq@VUPSTYh@a@dAuAjEI^C|BGb@IT[b@Yj@MN_@Ns@L[Ve@r@[n@_@~@yCxI[r@gAfB]v@}@|Cw@rBOVe@xAi@lBOt@{@dF]jBg@vBMx@Ed@@t@LjANpBBvACp@G\\Kh@[|@Ep@?~@\\pC@rAGjBSnCGdCKtAEhCKh@KPOL{Av@UF_@@sB[]AiABUBoARaAZc@H]Bm@@SDe@Xw@l@_@L}@FQHkAt@YJYDQHMLQXWx@QjAM|AM`AIjCKlAMx@Of@Kf@MjAB|CDb@?`Bk@tBs@nAw@jBSZMb@[l@Sj@ONQ`@MRGVGd@FdAEX?t@CH[tDCHAvAG\\EjBFdALv@?d@EXIZ]`@S\\ITIh@Eb@Ib@IPQR[zAGn@?\\Kx@BJAfADr@Ib@Ap@@`@GXCP@RCl@G`@@b@UlCBF?ZDN?d@El@FZAPFPBf@CTELAZEVEdA@HAXGLAP]b@CLCTDB@AHQ@ITDMOBPEJSACGFSE^BH@?Jc@GRIBB?\\yBFmATwADk@EiAB{B?}ADiAC_BZkBAgEFmCFyAVqAPu@Vs@j@}@^[P_@BU@o@UsCA}BDaCD}@NyA@]?w@EcABi@fBcD\\g@d@_AbAeBf@s@Rc@Ne@LaAOaCBiAAmAN{Aj@yCXeFh@aENy@JWLQNMv@SCDSBMPEVHD`A}@LIXI~@ATGtA_A`@SnAGnA_@dAK|@Ex@?n@Bx@Fv@PRAd@Mj@]j@UNKHOLm@JgDAcALqBXoCJ{BAu@_@kBCk@?o@Fo@d@iBNeBCaBOoBSaB?y@PsAr@cDnAgHR}@fAuDZq@d@oAv@iCh@eAdA}A`@_Ad@mAlBeGXq@z@cBR[LM`AWNINOZk@VYLUJo@DeBJ}@rA}D|@uBPWTQj@W`Bi@PMf@i@~@qAfAoAdByAvAaAVKb@KfBWrFgAzBUrACfBS`BAvAFd@Dv@P`AXPBLAj@YRCxACzBMlEk@pEYh@I^KnBw@b@I`@?tCVZJ|@j@VLVDvAP|BBPCFERo@Fa@BsAHs@Z}AHUDAP?`@FdBn@xA^j@H|DTh@Jh@RpA|@\\L\\Bl@G\\MXQb@a@`AeA`@[^MfAOT?\\FZJPLVXh@r@bClEt@bAl@r@f@b@ZRv@ZdA^dBf@l@Ln@D\\FfBn@bGxA|GlA`AT`@J`Bj@`B^n@R^F|@Dt@FTFDFTEXD\\PdAp@f@RpBb@rF~Ab@N|@f@x@Pl@b@rA\\VLl@b@VJfCn@bEfBf@LzAh@|@`@h@XbAVt@V?JFJr@Td@Vf@Jl@\\`@Pr@FrAf@~ATRCPMBGCQq@_BMi@AM[mACWYcA?GKe@AeAQ_BK_@OSSiAIkCUqCSwDQqEGiCO}DKuDMwBSkEI{DOiBUcHGwAKmAIm@g@}B{AuFi@aCg@eBq@wC[iB[uASmA]_EC_AHmB@kDGeC]eEEuGB_AZ}DPgBX_EH{B?s@s@uMQaFCwAMwBKwCEaEKuCCuBGmA?q@C}BMcEAeCKuD?mAEe@Gc@M]k@e@sAy@MOk@{@aAc@AFBB\\HRL`AnAZT~Ar@h@ZJBDGKAq@_@u@[i@YoAgAq@c@WGI@QAGDBBJADE?EC?CFDFPGJBDCCGi@BMEAFFBVCl@BPFL@JEBQH?@FMC[Fr@IBA@IOYeCcBmAe@a@Ik@E}A?IEQuA_@sBq@oFEo@wAwKa@eCK_Aw@eFyAyLe@wCy@kHGUWqBOq@WyBQw@c@sDCDBd@dArHB^ANGHGFaCh@g@Rc@JMJADFj@Nn@^nCHj@AN@BEm@q@qEA?GJEA",
+                "id": "a1123817137",
+                "_id": "598ce01abb18a216a7069e10"
+            },
+            "trainer": false,
+            "commute": false,
+            "manual": false,
+            "private": false,
+            "flagged": false,
+            "average_speed": 5.527,
+            "max_speed": 14.9,
+            "average_cadence": 71.1,
+            "average_temp": 14,
+            "average_watts": 138.8,
+            "weighted_average_watts": 164,
+            "kilojoules": 711.3,
+            "device_watts": true,
+            "has_heartrate": true,
+            "average_heartrate": 134.5,
+            "max_heartrate": 168,
+            "max_watts": 755,
+            "elev_high": 3179.8,
+            "elev_low": 2959.6,
+            "workout_type": 10,
+            "suffer_score": 51,
+            "__v": 0,
+            "description": "",
+            "calories": 793.1,
+            "gear": {
+                "distance": 3213319,
+                "resource_state": 2,
+                "name": "Mountain",
+                "primary": false,
+                "id": "b1242187",
+                "_id": "598ce01abb18a216a7069e0f"
+            },
+            "tssScore": 71,
+            "end_latlng": [
+                39.25,
+                -106.29
+            ],
+            "start_latlng": [
+                39.25,
+                -106.29
+            ],
+            "zones": [
+                {
+                    "custom_zones": false,
+                    "points": 16,
+                    "sensor_based": true,
+                    "resource_state": 3,
+                    "type": "heartrate",
+                    "score": 51,
+                    "_id": "598ce01abb18a216a7069e09",
+                    "distribution_buckets": [
+                        {
+                            "time": 577,
+                            "min": 0,
+                            "max": 109,
+                            "_id": "598ce01abb18a216a7069e0e"
+                        },
+                        {
+                            "time": 2768,
+                            "min": 109,
+                            "max": 144,
+                            "_id": "598ce01abb18a216a7069e0d"
+                        },
+                        {
+                            "time": 1180,
+                            "min": 144,
+                            "max": 161,
+                            "_id": "598ce01abb18a216a7069e0c"
+                        },
+                        {
+                            "time": 598,
+                            "min": 161,
+                            "max": 179,
+                            "_id": "598ce01abb18a216a7069e0b"
+                        },
+                        {
+                            "time": 0,
+                            "min": 179,
+                            "max": -1,
+                            "_id": "598ce01abb18a216a7069e0a"
+                        }
+                    ]
+                },
+                {
+                    "sensor_based": true,
+                    "resource_state": 3,
+                    "type": "power",
+                    "_id": "598ce01abb18a216a7069dfd",
+                    "distribution_buckets": [
+                        {
+                            "time": 1142,
+                            "min": 0,
+                            "max": 0,
+                            "_id": "598ce01abb18a216a7069e08"
+                        },
+                        {
+                            "time": 246,
+                            "min": 0,
+                            "max": 50,
+                            "_id": "598ce01abb18a216a7069e07"
+                        },
+                        {
+                            "time": 451,
+                            "min": 50,
+                            "max": 100,
+                            "_id": "598ce01abb18a216a7069e06"
+                        },
+                        {
+                            "time": 762,
+                            "min": 100,
+                            "max": 150,
+                            "_id": "598ce01abb18a216a7069e05"
+                        },
+                        {
+                            "time": 884,
+                            "min": 150,
+                            "max": 200,
+                            "_id": "598ce01abb18a216a7069e04"
+                        },
+                        {
+                            "time": 1060,
+                            "min": 200,
+                            "max": 250,
+                            "_id": "598ce01abb18a216a7069e03"
+                        },
+                        {
+                            "time": 406,
+                            "min": 250,
+                            "max": 300,
+                            "_id": "598ce01abb18a216a7069e02"
+                        },
+                        {
+                            "time": 94,
+                            "min": 300,
+                            "max": 350,
+                            "_id": "598ce01abb18a216a7069e01"
+                        },
+                        {
+                            "time": 41,
+                            "min": 350,
+                            "max": 400,
+                            "_id": "598ce01abb18a216a7069e00"
+                        },
+                        {
+                            "time": 9,
+                            "min": 400,
+                            "max": 450,
+                            "_id": "598ce01abb18a216a7069dff"
+                        },
+                        {
+                            "time": 28,
+                            "min": 450,
+                            "max": -1,
+                            "_id": "598ce01abb18a216a7069dfe"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "_id": "598ce017bb18a216a7069d34",
+            "updatedAt": "2017-08-10T22:37:14.333Z",
+            "createdAt": "2017-08-10T22:37:11.671Z",
+            "activityId": 1125570600,
+            "resource_state": 3,
+            "external_id": "26cea68c-20ed-463b-82a2-3fde0c9b8e1e.fit",
+            "upload_id": 1230334361,
+            "athlete": {
+                "resource_state": 1,
+                "id": 2088740,
+                "_id": "598ce01abb18a216a7069dfa"
+            },
+            "name": "Mineral Loop, Pipeline out to Twin Lakes and back. Supposed to be an easy day... Hmmm",
+            "distance": 91566.8,
+            "moving_time": 15897,
+            "elapsed_time": 17106,
+            "total_elevation_gain": 1113,
+            "type": "Ride",
+            "start_date": "2017-08-09T14:17:12Z",
+            "start_date_local": "2017-08-09T08:17:12Z",
+            "timezone": "(GMT-07:00) America/Denver",
+            "achievement_count": 9,
+            "map": {
+                "summary_polyline": "c|pnFduwgS_EsLyNxDeHgJiBe]sHvAsLsYu\\oQrSsNtKyl@tm@pBvF{HfTfIjt@gNzZab@sOsb@zAcGdWzd@}Upx@jIxe@{@`R`PdKqQb`@hFfF`Y{ImDzZ~IbIkAjTnIlPaF|GjJdL{UnQVvHaMcCqFpYuF}A~@aPmXfNoBia@uMX}@qFaCda@kKgMkXjAgVb|BfQdwAOxcAfM`Qps@rK`LbyDph@n\\|TaHzPmb@XmbC`x@f@l\\_Ph}ArAAnz@`H`RnLsPrApVvaAcy@vlA{r@h{@qQjEvQ|K_\\vFlVdAy\\rQkC|Rhe@zC_c@fPh@xYqXdMbHxJeH|Dar@cMf@fRuMuIaTHcQtFXJsLbq@xDpc@kWtNrEzJwEGkIn_@wl@rRjKd@}I|KmAlZgl@rGrApPtd@z~@up@o_Alp@cP_e@cH_AsZfm@mLx@CzIgSkLs^hm@HnI_KjEePcEib@zVyp@sDOtLqFQA~PxIbTcRfMtLO}Epr@{IhGeMaHqYdXgPi@oDtc@eRse@gRdCu@v\\gGoWqKb]iEaRy|@`RaNpPs~@vb@isAngAkEscBc}A_Bg\\bPox@c@AtaCeQfc@mS|Gsh@_ZsLo|Dos@eKaN_TZuaAmPw|AtRsoBlN{GmPe^mF_`@LoJnFmAfBlGiBwGoFhB",
+                "resource_state": 3,
+                "polyline": "c|pnFduwgSCUEEy@NGES_Ao@iEUoBM_@KGSCUD_@P_@JqBf@}@ViALeA\\[Pa@XIBGACCU}@Si@Q_@e@s@kAqAs@e@q@]IGCICS@SFMd@a@FO?Qc@kDg@{C?QFa@K}@I{ASiB]uCQu@GAKJm@ReCn@s@T]@YMwAsAWa@Oc@IYQaBKkBU{BWgAQWUSc@So@SIGKSm@uB]g@iBmA[Yc@o@MKGAU@c@RKJ]p@MNOHa@DQAQGa@W_AoA_@]gAm@iAw@gCwAw@m@_@g@o@iAIW?WFKZSpBw@`@WfA_ARKVAd@NTBZGx@[lAiAl@{@^_Ax@_BNa@Xk@Pm@`@}@f@cBt@mBZuAJu@JyAb@sCHcANqAD_B?qDF_CHe@Zw@PU`@WRETAt@Fz@PfCBrBOrCEtBKtA@z@HZF^LXBRAfAWd@GL?T@^J\\Rt@h@rAb@d@BdBCx@HV?VERMXUPWLe@ToBN_@PQd@_@ZOVAn@JXP~AfC`AlATNND~@Fn@LnABlBR~@Nf@?dC[bDi@jE{@r@IlCo@hAOjHsAlBUrDWpAQx@QbA]lB_A\\W\\Yh@s@r@}A`@m@z@u@bAs@v@y@tC}BdBaBfAqAt@kAhBmDRg@Pq@Z}ABo@C_@_@mBc@uDOi@m@uAiCyEuAyBaAmAYg@Wk@YcAc@eAIe@?q@@OTc@FWF}AFKFAP?PDPLLVzArGNd@JNr@r@bFzDdAr@zBdBd@b@T^d@bATz@VzBLfCEdB?fAMdBSxA[~A[xAo@vBaAbDgBnFgAhC[l@i@z@oC~D{@hBk@tBYpACVCv@@jAH|@^fBP\\VVP`@`A~D^hBf@hBX|AZjDXlBLjAFxAAlBDb@PhABd@EVIRILo@l@Wl@EVA`@BZFX`@r@PVhAlAd@^TH~@J~ABzAJXFTHPPP\\Nl@Ft@?bAGb@M`@QZwAxA]j@GVGZIz@EtAEZGXMTSNUFULORMZ]lBIPIJMDMCi@UOAg@FQLORe@fAa@pAEZ?\\DZ\\l@`@b@pAfA`@l@\\ZVBdAOrAKTEz@UxA{@b@Sp@CVGnCsB~@eAj@_AJIJEZCh@LVPZd@L^F`@Bb@A^GZKVk@vAk@rBIr@UtDWlBSt@Kd@Ch@@VDTLl@HT\\`@~@r@j@h@PJf@Jb@@PBNH^ZLPHRDRAROv@MfAAp@@P^tANt@HnA?TIf@EPKLYV]RKLGNEf@@RDRT`@b@j@bA~Al@pBrA`CXZV^Rd@BT?RCRS`@MJKF}@Vk@X[PWVIPIf@ATBRNh@x@tA`@fAXXj@\\NDpAP\\JVZT`@Jj@?VCTIPk@dAs@t@w@j@qAl@[HiAL]C]IMAO@MFIJk@`Bm@zAS\\KJ[PsA\\WNIJK^@d@J`@d@bAJf@?n@CTIPMJMFc@A}AYgAe@s@c@{@k@i@SM?[BYJKHQZYfAQ`@Y\\s@n@INMd@Cj@CpCXzCBdA?n@Ij@IPk@f@c@PQ?eAGq@BQ@OEOGYUQYM]CO?e@JsANsAz@}F@c@AMGKKGK?MBKFILYlAQf@Wd@m@n@a@TsAl@yBf@cBRa@Jm@h@MNUh@Oj@KNOFM@}@I_@Kk@]WYI_@[qD_AoN?m@@WHk@PaADi@MoBG_@UUm@Su@GSBa@HMCa@Q_@G}@Ni@Ri@Js@j@G@GAGKG{@UgBOy@GGGBYf@a@pAo@vDSvBA~AH|GBlAN~BCj@IVGFG@SGYY[g@[s@eAkB{AoBq@o@e@g@c@W{@DaBByCHyJDa@Ba@Ha@RSNs@v@Q\\O^WfA]nCe@~Ea@jFi@`Ga@~Cy@`IaBfQa@dD[rDgBvPqAdNa@dDOzBA`B?`BJpCThCFdARjGXrFh@lF`@fCn@xCr@dER`A`CdNbArFz@|EZrBL~A@xBPnCBjACpBGx@Kt@a@bCc@lBQnAKpAMzBClBBjFl@lNXfDX`Bb@zAx@zBr@rAn@`A^d@~@~@bBdA`Af@hAXjKnAz]~EzDl@XNHJFNF`@FrDh@lOh@pWBlBRdLh@lOFbDb@hNXtKp@jSHvAdAvHf@lFRzAJdBTtBHnA?bAEj@aAzDB~BCXD`BD|@d@zBNT^ZrAp@hBt@hD~@bBh@dCn@lAf@d@V^Z\\j@Xn@^h@`@`@~@p@vBdA`Aj@z@p@f@V\\LTATGPG^UpBaBrCoCd@YPIRCTFbAd@THVDp@@XAh@ONM`@u@\\}@~CqKz@{BlBqDbAyAr@mA`@cAVmAFsA@qAEiD@qDEqB?wFAgCAeCFaCCgIBsEEwR?yWCoGBiLCqE@SDOHKLGNAP?jHL|B?fCFvA?`PLlHLlE@vAInBi@bAa@NInC{BxA_AlCwAnAk@jFyBNGd@GP?d@NPJjAdAjAx@\\Rp@Pb@BpB?~@BlKXxFDh@AVG`@Q`A{@VQZKLArC@nFA|CGzBAtB@jI?pFE`FMd@B^R\\b@Rl@FH@AI_@_@i@[Y]OO?ABJp@@nEB|@GnI@hCCjF@|LCxE@xCFr@L^Tb@\\z@Pn@Jh@Zz@XbCb@~BV^DDJDBCKEQSEAEH?MG[Io@AYTk@?a@c@cASYMYKMC?Vj@Fb@Dr@^vBFdADDJ?NHb@XPHPBf@MRIdAkANSp@sBv@cDP_@`@e@hAu@d@e@HEDBDFBNAr@MtAK|BMfBOtAEv@Bh@VzAPl@NN^VVDRETK`As@hHcGjCmB~DsDfAy@l@o@jB_Bn@o@rAeAx@aAnAcAn@c@|AwAf@_@vAwA|@a@~AwAjAu@tCwBd@a@hAoA`A_AxAiA^STKfAOVITKfCaBzKqG`BwA^Wj@]dAe@nAy@`B_AfAw@xAw@|DeCdFuCl@e@REJDPR`@@PJZ^RNP@PGVUP[L[Ps@FoADUFUPW`Aw@lEkCx@e@vAm@f@MpJyAlBc@dEa@zDs@bAYpAMdASlDc@tDk@~C_AfA_@~BgAdAu@PERBNNT^L\\Fv@PzCp@hGFRHHTFN@FCDKd@sCb@_Bj@oCZcAb@kAZm@z@aCz@{ATkARWLILANBPLL\\FpBJ|@Px@v@xCR~@NxAFhAHr@FNJLNBN?FIBM\\uC@]?k@UiCGmBBe@Fe@ZaAF_@@e@IoDBe@J_@HKVMpB[xAKl@Qr@ClDg@tAKh@DPHJPN|@@^d@pDTbAv@jBd@x@nA|AnAnB`AnBZ`APz@Lt@RzBPj@LRJDT@TGVYRi@Ps@Fm@DaBGoDB{CCc@ByCVsEHs@ZkATYp@Yl@GvBLf@FnCPlBTh@LDI^_@j@cBVc@JMTCb@HPAPIb@[l@O^Yz@cAP[P]RWVMjA]f@KVMTS\\e@X_AEVBDB@HGzAsBVg@`@cAJGF?^PXh@RPx@\\t@j@PFRAp@[^IZDJFTVLXd@xALLFBHATGNKb@aAd@w@T]b@a@VM`C[`@]HMLm@@ECEE?EJ?FD@BEH{@VaBDaAJ]DYJuFL}B@qCDgAAMK]C{@]eAMm@GuBJ{Ap@mBZk@j@q@Ti@@O?]OeBKc@MWGEGCGBo@b@k@TyAx@wAh@oAn@UNKEAGBIf@e@Zm@V_@xAyAf@a@dAe@TQ`@w@\\]RKr@Q\\QR[Vk@JOD?D@l@|@HDDA@IEc@?wAEa@Qm@o@sAQq@Gi@EGECG@WN}@t@e@TWBIAOOC]?{AC{@_@kCCg@JaCSaC@w@Ac@Be@Js@DwAEg@@IDEN@fAZh@TNBx@FFAZ]Jg@Am@G_@g@iBEQCg@Dc@Nu@Vo@LOJCb@ExBLp@C@EEA_@BABB@LEHDJ?BEECE@ABDBD?BEECM@AFx@E~@D~DApIBv@Hh@V\\^v@nA^Z\\NV?^In@c@XOZGb@An@DjARzA`@v@D`@Af@Kv@YzFqC`@U|@u@zBaC~@}@rAoAb@]TI\\Gr@Cf@El@Qp@a@`B{Ap@_@\\Mj@K~AO^?RDVVh@dATXzAvA`@Td@J\\@ZI`B}@fAg@~Ao@nAa@NKPSRi@Fo@Ei@g@qC@_@FUJQl@m@NSVg@|@wBdAoBh@{@jB_CdBoB`AsAtA{Ab@i@v@{ATo@Po@Na@Vy@Te@l@_Av@s@Z_@p@oA^k@ZW`@Q`@EXFVRv@~@nA`Av@t@dC~Ah@b@j@h@b@t@RFLCFSDs@?a@IaAA_AJy@Jc@JS^a@`@UbAY\\GVAT@HFRRd@t@NHNB\\Mn@i@X[`@y@J[Rw@ZgBl@wBtCqGjBuDnAuCx@wAjDqE`AyAl@m@x@i@TG`@Gb@?XDhBf@TP\\b@NZJ\\d@hDRp@`AhARZ`DxFl@jA\\~@Lp@DfAEp@WxAEd@Ah@BTFRJRLNNHd@FlAAnAQrA]RKjA}@VKTGn@In@OjCuAbAq@l@i@RWfAqB|@mAl@o@n@i@hBgAp@g@dAcAxAiBr@k@XSlBcAhA{@r@c@vCyALAHBJFC?DEZCj@MRCX@FCHMn@yAfCqEACCAMPeAtBWn@e@z@Yn@U`@MDSAk@FcA?c@DWDw@b@YHcAj@mBzAsC`B_@ZiBtBa@`@y@p@gBfAeA`Aq@p@iA~Ai@hAY`@YXkAn@KRA?ACJIa@XoBfA]HuAROFa@Te@b@YPw@NsBZo@?g@CYMOUGYCo@Du@N_AFgACcAGk@Sm@[u@aCuEmAoBe@k@_@_@OWI_@_@}CSs@S_@U_@YS]Ou@Ou@Ia@@_@Fg@R}@h@c@d@uBxCuBpC}@~A_DjH}CtGg@bBa@lBYnAm@dBW`@k@j@OJQBQAQGOO]e@]YQGSCSA}@Lk@Ng@\\c@h@KVIVEt@DpA\\bB@\\CRILIDI@KCUY_@y@Y_@gC{BmAy@qAiAk@a@a@q@UMUGWCYDWJk@^QTQ~@Yt@MVQPu@p@q@bAcA|BaAnC]p@c@h@qAtAw@bA_CpCqBnC_AdB{AlDmAbBI\\?XFf@^hBDn@Eh@GVKRMNOJ}@P_A\\qBx@qBdAYD[?[G]Oy@k@aA}@U[c@w@WUMGKA[?qDj@UHSN{AzAq@f@WHWDoAD]Be@NuCpC_AbAs@z@q@p@w@l@yAt@kD~AgA^k@Jw@A_@GiBg@uAOa@CWBUD{Az@[DOAa@S]]y@mAs@q@e@Qi@G_AAeBDcAFmFGuCBeDC[B[JSVUh@K\\K|@@TBVn@pBD\\@l@Kj@W\\IDUEa@?SC[Sy@S]OI@EHHp@C\\?t@Or@ALBx@Cp@TbC@VK`AAl@B\\^fCF~@@nADl@BJHFFBT?r@c@`@a@b@WLCJD@D@`@Lp@HVh@|@T`A@j@?`AFV?JEHEBEAi@y@SQI@GFYp@U\\c@Pk@HSJ]Xg@fA[LSPo@VYR_BfBMR[p@KLQLEL@JJ?TOd@Qj@[`AYd@[b@OZYl@Mh@a@P?LRJb@Fb@@`@Hr@C^[p@QRUNKVMPWp@IZS\\CNA`BDtALn@b@nA@T?j@JX@RGdAEbDOrBK~FANMV?PDBo@zEO`@SRUHq@Dy@Le@N]Ze@r@e@x@]z@MLMDO@MEGM]kASa@W_@OKMEOA_@Fk@T_@BMEKISWg@Q_@SOOMWMI]MK?MJc@fAWb@}@hAkAbB]\\_@Vi@B_@Nk@DQFKJa@z@_@^k@t@YTo@Le@b@WDSGKB_@AGB]j@i@lBORUNKBS?m@M_BU_BQ_@AWE[?aBOg@Dc@JWLWXMXK^Mz@G~@KbEExMKzCOdASh@KJYNY@IAMKGO_@mDQy@[iAo@oAeBwDQYm@o@a@u@k@y@]y@Qo@Y_B[oCKg@?_@GKQMOE]AqADqARi@BkANa@@{@LcAB{Bb@_@LOPIV?XBhBJdBGd@a@bAEd@FlCN`BFnAQ`EITOLG@ICEEQa@a@uDS_Ak@wBa@sBMmACsAIa@Wk@YQKAWFGFGVKz@GTIRe@n@Q^Od@Qv@uApDe@jBmAdHUp@QPI@KEUa@e@kCQmBOwCMgAKa@MW_@c@MCWDq@b@uAp@iCbAw@^gAZ{@R{Bb@iAJyEr@wEl@iAPiAVmDf@qAT}HdAmAT{@Zo@ZuEpCcAr@a@ZIJO\\G`@MrAYjAQd@Y`@ODQEo@i@IC_@Ci@]IAWF{FzCuCnBcCpAuAdAyBlAiAr@kB`Am@f@u@v@aAp@mE`CyCjBqC`Bm@T{@H]HgBlAmAdA}@dAi@f@iBtAmAr@s@h@QLqAnAoAx@sArAiAdAaDdC}@~@mA`A}@z@{@n@_DnCw@l@}DnD{BfBmBbB}AxAmCzB{AtA}AnAeB~ASJM@ICe@QM?KBg@b@iBhBw@h@]j@MJQ?IKQ{@G{@Hs@h@qAFWBYAo@G_ABiCFaBGsCu@iFYs@UcAe@qA]q@Km@A]Bms@BkBG]W]SAyEJqI@iFAkEBoKLsDGa@D]Le@\\o@l@YP_@Hw@@kHOsHYwDEs@Gg@Mc@WkBwA{@k@e@M[Ac@FUJmB`A}@\\mD~AiEjCoB~AaAl@gA\\oAVkAH}B@eFKeEC_EGsVMgFE]CGD?DH~G@rECr\\FvaAAjF@xFAj@Gv@SjAYdAe@`A}BtDiA~Ba@bAqBjG}ArE_@v@W`@[ZOJQBO?g@O_B_AYEW@MDUNu@r@iBpBiBdBg@V]HQ@UE_@Sw@o@{AeA}DgCKIU[e@aAS]UWc@Y_Bs@m@SwA]mBYuAa@g@IiAa@yCoAm@YMMWa@Kg@Ig@E_AK{GDWv@{CLsA?aAGaAYuBUkCUwAo@kHQkA]aBK}AQyHOgD[mKIgDQgFCaCe@iNOmH[_Ls@g^IaCWiEc@_LCCGC_@CuHeAeYaEsKsAo@Mc@OwAw@aBgAs@q@{@kAw@yAu@mBq@eCWsAQqBo@wNIoC?uCFaDVaDTyAv@mDLy@NaB@gBSaDQsES{BQgAgCgO]eCiDyQw@yE[cCi@aHg@}KS{HAgABiBNyCTcC`BsOZiDd@cEdBqQnEqc@j@uGx@wHNaANi@Rk@P[b@g@t@i@XIl@CdDEv@ERIVUHO@MUsAScBc@mBCk@Kw@CCODa@DY?]GWUg@y@u@eBU]kAoCyAwCk@uAK_@]_CSaAa@cD[oB_@iDYaB}@sH?MBIPKd@GFK@IWyAa@kDAO@GBCfAQ\\IjBq@JAP@DDDPb@hEJv@DDDA^Oy@uBUkBOk@IIEA_@Jg@R_Cn@YLEFAD",
+                "id": "a1125570600",
+                "_id": "598ce01abb18a216a7069df9"
+            },
+            "trainer": false,
+            "commute": false,
+            "manual": false,
+            "private": false,
+            "flagged": false,
+            "average_speed": 5.76,
+            "max_speed": 17.3,
+            "average_cadence": 80.3,
+            "average_temp": 19,
+            "average_watts": 123.5,
+            "weighted_average_watts": 149,
+            "kilojoules": 1963,
+            "device_watts": true,
+            "has_heartrate": true,
+            "average_heartrate": 134.8,
+            "max_heartrate": 172,
+            "max_watts": 819,
+            "elev_high": 3219.6,
+            "elev_low": 2822.2,
+            "workout_type": 10,
+            "suffer_score": 127,
+            "__v": 0,
+            "description": "",
+            "calories": 2188.7,
+            "gear": {
+                "distance": 3213319,
+                "resource_state": 2,
+                "name": "Mountain",
+                "primary": false,
+                "id": "b1242187",
+                "_id": "598ce01abb18a216a7069df8"
+            },
+            "tssScore": 139,
+            "end_latlng": [
+                39.25,
+                -106.29
+            ],
+            "start_latlng": [
+                39.25,
+                -106.29
+            ],
+            "zones": [
+                {
+                    "custom_zones": false,
+                    "points": 1,
+                    "sensor_based": true,
+                    "resource_state": 3,
+                    "type": "heartrate",
+                    "score": 127,
+                    "_id": "598ce01abb18a216a7069df2",
+                    "distribution_buckets": [
+                        {
+                            "time": 384,
+                            "min": 0,
+                            "max": 109,
+                            "_id": "598ce01abb18a216a7069df7"
+                        },
+                        {
+                            "time": 11784,
+                            "min": 109,
+                            "max": 144,
+                            "_id": "598ce01abb18a216a7069df6"
+                        },
+                        {
+                            "time": 3663,
+                            "min": 144,
+                            "max": 161,
+                            "_id": "598ce01abb18a216a7069df5"
+                        },
+                        {
+                            "time": 66,
+                            "min": 161,
+                            "max": 179,
+                            "_id": "598ce01abb18a216a7069df4"
+                        },
+                        {
+                            "time": 0,
+                            "min": 179,
+                            "max": -1,
+                            "_id": "598ce01abb18a216a7069df3"
+                        }
+                    ]
+                },
+                {
+                    "sensor_based": true,
+                    "resource_state": 3,
+                    "type": "power",
+                    "_id": "598ce01abb18a216a7069de6",
+                    "distribution_buckets": [
+                        {
+                            "time": 3314,
+                            "min": 0,
+                            "max": 0,
+                            "_id": "598ce01abb18a216a7069df1"
+                        },
+                        {
+                            "time": 687,
+                            "min": 0,
+                            "max": 50,
+                            "_id": "598ce01abb18a216a7069df0"
+                        },
+                        {
+                            "time": 1525,
+                            "min": 50,
+                            "max": 100,
+                            "_id": "598ce01abb18a216a7069def"
+                        },
+                        {
+                            "time": 3552,
+                            "min": 100,
+                            "max": 150,
+                            "_id": "598ce01abb18a216a7069dee"
+                        },
+                        {
+                            "time": 4444,
+                            "min": 150,
+                            "max": 200,
+                            "_id": "598ce01abb18a216a7069ded"
+                        },
+                        {
+                            "time": 1685,
+                            "min": 200,
+                            "max": 250,
+                            "_id": "598ce01abb18a216a7069dec"
+                        },
+                        {
+                            "time": 406,
+                            "min": 250,
+                            "max": 300,
+                            "_id": "598ce01abb18a216a7069deb"
+                        },
+                        {
+                            "time": 125,
+                            "min": 300,
+                            "max": 350,
+                            "_id": "598ce01abb18a216a7069dea"
+                        },
+                        {
+                            "time": 57,
+                            "min": 350,
+                            "max": 400,
+                            "_id": "598ce01abb18a216a7069de9"
+                        },
+                        {
+                            "time": 42,
+                            "min": 400,
+                            "max": 450,
+                            "_id": "598ce01abb18a216a7069de8"
+                        },
+                        {
+                            "time": 60,
+                            "min": 450,
+                            "max": -1,
+                            "_id": "598ce01abb18a216a7069de7"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "_id": "598ce017bb18a216a7069d37",
+            "updatedAt": "2017-08-10T22:37:13.355Z",
+            "createdAt": "2017-08-10T22:37:11.674Z",
+            "activityId": 1127142836,
+            "resource_state": 3,
+            "external_id": "c76fdce8-03eb-4504-ba8a-4e07f78f27e8.fit",
+            "upload_id": 1231931136,
+            "athlete": {
+                "resource_state": 1,
+                "id": 2088740,
+                "_id": "598ce019bb18a216a7069db5"
+            },
+            "name": "Gu ride in Leadville",
+            "distance": 27968.4,
+            "moving_time": 5015,
+            "elapsed_time": 5499,
+            "total_elevation_gain": 546,
+            "type": "Ride",
+            "start_date": "2017-08-10T15:04:44Z",
+            "start_date_local": "2017-08-10T09:04:44Z",
+            "timezone": "(GMT-07:00) America/Denver",
+            "achievement_count": 9,
+            "map": {
+                "summary_polyline": "wqpnFpzwgSvKh_AiIsHmZyq@uGoS_GqFl@mCaD_XuHx@yB{CoAwK{E{G{DcDkDpAsMgI{ByDrPmI|HgSbBkZvAqBz_@IpL|B~F{HhGdGpKbAft@}MnTwU|EiLwAqKwL_U\\qG`A?jChJbPrNnAnJgD|UmPba@RhGdHf]b@`J{AtFbDjExHfAv@hCwD|OiC`F}ChAoAjG`FrD|K}DtFeFfCjA\\|CkDvUzH|Gb@dOqA|C~HxQeDrCSdCbIfLwErFiE\\aCnF_Cv@AxHsM{A}CpFPtMeBnBmF}A|@qOmChEqKjDaBnCoDi@oBkSLqLwGkA}DvAaAoFgCfLPxR_M_K`EpFdD|jAyAvTr@j`@jJpc@pDf}@lFx\\kEiUsEqdAkJ_f@w@c]xAeVcDykAgFwEsH]aNmeA",
+                "resource_state": 3,
+                "polyline": "wqpnFpzwgSOZLzA|AlLdEx\\rA`Kd@tC@JEDaAWo@]_@[gBkB[e@s@oA]u@y@sB[o@a@{@_@m@q@uAmAkCc@{@yAmDkAgCu@wAkGyOk@oAk@wAy@eCo@}By@gCg@kB]_Aq@iAcAgAYWgB}@GIES?WDK`@[HOBQAWEm@_AcG?MFO?Qg@yFMi@[wBQa@KGK?gFrAWA]Og@e@SUi@w@Sg@Ms@SmBUgDIg@Me@OYOOm@]i@OWSKWe@kBYk@]YoAu@YY]i@UOW?[LMP[l@OJUBWCOGg@]g@k@_@Yk@YiAa@s@]{@g@qAaAk@_@_@_@YUy@oAIW@[FKj@[`@Qr@SrAiAf@_@ZEp@RR?f@If@Sv@o@l@u@T_@|@cCdAsBz@qBp@oBZy@n@sBP_AFaAf@gDZqEByA?yF@[Jc@Ve@VYZMTGN?p@Hz@TnABp@I`ACpAM~B?`DIn@?`APf@NZDTCbAWr@KJ?TDRHzA|@h@Td@Nf@B|@C^?fAHL?TCLGZUPWRk@VkBJYFMd@c@XOVKTAd@H^Tp@x@tAnBd@j@TNt@DdAPfABpBR`ARX?`@CvB[lBa@pDq@j@G`AOvCs@hCc@hCi@`AOrC]dDWtBYnAa@lAe@d@S\\Sj@k@V[NUZ{@Tc@^g@r@o@xAcAfAmAnAgA`C}Bx@{@f@m@pBeDd@}@x@uCJo@@YAWS{@UqAQ_C[qAoCqFuB}Cu@eAa@q@yAwDIm@Ak@DYRYFSFoBHMLANBPDLHJTn@tCj@|BTl@RX`EhD~BdB~BrBl@j@f@v@b@bATlANnA?tADv@E|BK`BI~@s@dEc@jBs@jC_CjHy@tBcAlBoDtFcA|Bm@zBI`@C`@C~BDv@PpARp@l@bA^bBj@xBZvA^vAPfAhAzJJ`BAb@CNBn@XvB?b@M^u@~@Yf@EVCV@ZH`@Vp@\\h@hApAb@\\z@Vv@J|ADt@FPD^NLJV^Jh@Dr@?p@Gn@Oh@Wd@Yb@s@|AQr@UhCQj@MRe@`@_@h@a@~AS`@ULOE]?Q@g@X_@d@[n@e@pAG\\Gx@@p@FTJR|AbBPDTNTDVJXAt@KnAY|@a@pBkAz@Sj@U`DeCt@aA\\]\\Gl@N`@ZXf@JZLx@D^Af@EVg@~A]hBe@rEU|AKl@[hAAb@Df@Jj@HRHPXZl@`@j@j@TNZD`ADHFRVTd@FZ@ZU`C?`@B\\d@lCB^@|AGb@KLc@TOTI\\?`@Ph@h@~@x@dBJ^RdARl@bAhBr@~@Rh@H`@AXKXYN_@FQHw@f@STOZI\\?b@Df@d@jAVh@Xz@Zd@`@X`BZTNPRNXH\\F^@\\EXKZMX[b@eAbAs@\\a@\\e@N_AN]Ae@KWBGF]j@q@jB[r@Ub@YPsAXQJGHI^E^Dp@R`@Lh@D^En@CNMPWH[@c@EaBWYIuAi@mAo@WAW@WFSPOVW|@O^SXs@l@U^GRIf@AhC\\xD@t@Ar@G`@OZq@f@[HM@}@G_ADO?MEe@_@QYK]CM?a@NkBf@qDb@{BAk@KWKCWBGDOXMr@Qb@c@p@YZm@\\mBt@eBf@}@Lc@Hm@Ve@`@SVYdAMN_@Fq@Cy@Uc@WEIKWKs@qAuPE_CDm@PoADi@EoBCYIOOKWMOEw@GQB]JM?q@Ym@I]F}@\\]DWL_@\\K?EISaBEa@OiAEOKGOLS\\c@pAo@`EMvACrBAtDHpDN|B?d@KXEDQBOEOM]i@mA_Ci@y@s@_AgAgA{@q@IEYHEDGL@PJRNVRTd@ZdAd@NLJR@JDl@TnIFzDVxJ@hA^|MT|LLtCh@zJEpBiAjNIxADlGH`A\\`DD~@?lBMtFLtCRjBj@pCR|@z@fDfA`F|@rDn@vCd@~BNhC`@|IZlJBtAd@lK\\lKZ~Fh@~FLj@Vn@HXPnAHvAPz@Fp@R~@`@nARjAPp@@^CYU}@Gk@q@aCMmASk@GiAMcAGUG[OQ_@wBCeAM_BGkAS}Bi@cLIgCKqAAgAWaHG_AIaC[wFEwCQcDEcBKu@m@kCSgAQu@W_BSo@sA{FOuAUkAKWKm@Wk@Ss@M_AEq@MyAIsAA}AD_HUeBQcCGiBA}CFeBl@gH\\_FDgA?o@Y_HWsDCcACoGOcCOoOG}@CwAOgDSeJYyHIYQQuAk@_@WQSe@w@OQMIu@EcF?MEKQWsAm@{DmCgTuA{JSiAa@eDiB_NSqBKm@?IHU?EAC",
+                "id": "a1127142836",
+                "_id": "598ce019bb18a216a7069db4"
+            },
+            "trainer": false,
+            "commute": false,
+            "manual": false,
+            "private": false,
+            "flagged": false,
+            "average_speed": 5.577,
+            "max_speed": 16.6,
+            "average_cadence": 66.9,
+            "average_temp": 11,
+            "average_watts": 116.4,
+            "weighted_average_watts": 150,
+            "kilojoules": 583.8,
+            "device_watts": true,
+            "has_heartrate": true,
+            "average_heartrate": 122.2,
+            "max_heartrate": 161,
+            "max_watts": 745,
+            "elev_high": 3248.2,
+            "elev_low": 2887.6,
+            "workout_type": 10,
+            "suffer_score": 32,
+            "__v": 0,
+            "description": "",
+            "calories": 650.9,
+            "gear": {
+                "distance": 3213319,
+                "resource_state": 2,
+                "name": "Mountain",
+                "primary": false,
+                "id": "b1242187",
+                "_id": "598ce019bb18a216a7069db3"
+            },
+            "tssScore": 45,
+            "end_latlng": [
+                39.25,
+                -106.3
+            ],
+            "start_latlng": [
+                39.25,
+                -106.3
+            ],
+            "zones": [
+                {
+                    "custom_zones": false,
+                    "points": 0,
+                    "sensor_based": true,
+                    "resource_state": 3,
+                    "type": "heartrate",
+                    "score": 32,
+                    "_id": "598ce019bb18a216a7069dad",
+                    "distribution_buckets": [
+                        {
+                            "time": 1195,
+                            "min": 0,
+                            "max": 109,
+                            "_id": "598ce019bb18a216a7069db2"
+                        },
+                        {
+                            "time": 3300,
+                            "min": 109,
+                            "max": 144,
+                            "_id": "598ce019bb18a216a7069db1"
+                        },
+                        {
+                            "time": 520,
+                            "min": 144,
+                            "max": 161,
+                            "_id": "598ce019bb18a216a7069db0"
+                        },
+                        {
+                            "time": 0,
+                            "min": 161,
+                            "max": 179,
+                            "_id": "598ce019bb18a216a7069daf"
+                        },
+                        {
+                            "time": 0,
+                            "min": 179,
+                            "max": -1,
+                            "_id": "598ce019bb18a216a7069dae"
+                        }
+                    ]
+                },
+                {
+                    "sensor_based": true,
+                    "resource_state": 3,
+                    "type": "power",
+                    "_id": "598ce019bb18a216a7069da1",
+                    "distribution_buckets": [
+                        {
+                            "time": 1476,
+                            "min": 0,
+                            "max": 0,
+                            "_id": "598ce019bb18a216a7069dac"
+                        },
+                        {
+                            "time": 181,
+                            "min": 0,
+                            "max": 50,
+                            "_id": "598ce019bb18a216a7069dab"
+                        },
+                        {
+                            "time": 512,
+                            "min": 50,
+                            "max": 100,
+                            "_id": "598ce019bb18a216a7069daa"
+                        },
+                        {
+                            "time": 855,
+                            "min": 100,
+                            "max": 150,
+                            "_id": "598ce019bb18a216a7069da9"
+                        },
+                        {
+                            "time": 1082,
+                            "min": 150,
+                            "max": 200,
+                            "_id": "598ce019bb18a216a7069da8"
+                        },
+                        {
+                            "time": 552,
+                            "min": 200,
+                            "max": 250,
+                            "_id": "598ce019bb18a216a7069da7"
+                        },
+                        {
+                            "time": 203,
+                            "min": 250,
+                            "max": 300,
+                            "_id": "598ce019bb18a216a7069da6"
+                        },
+                        {
+                            "time": 64,
+                            "min": 300,
+                            "max": 350,
+                            "_id": "598ce019bb18a216a7069da5"
+                        },
+                        {
+                            "time": 31,
+                            "min": 350,
+                            "max": 400,
+                            "_id": "598ce019bb18a216a7069da4"
+                        },
+                        {
+                            "time": 18,
+                            "min": 400,
+                            "max": 450,
+                            "_id": "598ce019bb18a216a7069da3"
+                        },
+                        {
+                            "time": 41,
+                            "min": 450,
+                            "max": -1,
+                            "_id": "598ce019bb18a216a7069da2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "_id": "59b2df5f47956a2a5cfd2c64",
+            "updatedAt": "2017-09-08T18:20:23.427Z",
+            "createdAt": "2017-09-08T18:20:15.849Z",
+            "activityId": 1130504772,
+            "resource_state": 3,
+            "external_id": "82ba15e2-c0c4-4d0f-b608-2b29c3fdf55b.fit",
+            "upload_id": 1235372751,
+            "athlete": {
+                "resource_state": 1,
+                "id": 2088740,
+                "_id": "59b2df6747956a2a5cfd2cee"
+            },
+            "name": "Leadville Trail 100 MTB - 9:50:49 - Thanks to the whole Mt. Hideaway crew and my lovely wife, I couldn't have done it without you!",
+            "distance": 166372,
+            "moving_time": 35005,
+            "elapsed_time": 35547,
+            "total_elevation_gain": 3742.6,
+            "type": "Ride",
+            "start_date": "2017-08-12T12:30:01Z",
+            "start_date_local": "2017-08-12T06:30:01Z",
+            "timezone": "(GMT-07:00) America/Denver",
+            "achievement_count": 49,
+            "map": {
+                "summary_polyline": "awpnFzdwgS|R`{AkNfFew@buD{RpW{yBxV_b@njAaAzq@_a@|I{Lxq@yGziAfa@wo@r_@hb@gRz[t\\|Po^dgAdTbJ{Gx`CjZbGyQzqBh{@saAnd@_oBuMz{Bbv@la@af@kg@hViFnElThQeaBtZgVra@m}Avd@wWcQuL`v@wzA~QeEN``@`h@zXzd@ih@^oeC~sDgMfEtcBzcDm}Bb{@_QnEvQjKu\\xFhW`Au\\dRwCbRfe@rD{b@vdAeWxDys@_MrAtRgMoAes@zoBsPh`@ix@vRpKbg@sx@d^he@vkAgkAv{@bIdR`t@zXot@v[zFt@|a@bb@iTdAlTffAhOkj@tc@r\\sDmH`_@thARzKhk@}R_LtIx[gb@vt@~Cxd@bh@`~Avp@w_@{p@r_@}g@y}AcDid@zb@yt@_Jm\\nSnLaMsn@wgAZ~Hs^k]dE`l@{d@ygAsMkAqTob@dTw@ya@o[sFyXjt@iRut@y{@yHekAvjAo^ge@ofBzjB}eBvKvA|r@aRbMhLyAyDdt@wdA`WgD|b@kRme@aRzCeAd\\gG_WiK|\\mEaR_{@fQycDn}BeEmcBmsDnL}@|eCsd@lg@kg@sW_@qa@{QxEiv@|yA`QxMgd@nVcb@t}Ao\\jZoOj~AmEgWwVvGrf@nh@mv@ka@dMu}B}e@zpBky@|`A~Q{qBcZyF`Iy~BwV}K~`@efAi^}O~T}Zya@}f@ib@|q@zGekAtL{p@v`@kIxFaeAxm@weAhsBoNx}Bxz@o[ccG}O{GiRiwA",
+                "resource_state": 3,
+                "polyline": "awpnFzdwgSFF\\lBTvBpCrS`@bDXfBfB~N~ApKvA|LpAzIDp@CTER[POBkFDg@Bg@Ni@Za@d@[l@Ur@Qt@Kz@qNjvAOZWTq@Za@L{@HyBIUBSDe@VuBjB_@^Wb@uAxEa@pB[jCMrAGfDCx@Mt@o@rCSx@O\\MT{@bAa@x@]|@UdASpCMdAc@lCaAnEO`A_AbI_@zEQz@KZa@v@cA|A_@p@g@pAwAdE[p@SXONSJkA\\m@ZcBdBk@^WHWDWBUCWGUKqAy@i@UcBSsCQ{Ac@oBu@[E[FKFGJWlBAhBEf@Kb@GLGJIDkB?uBUa@KgAq@UKa@GuCSg@HgBt@e@Le@J}Gj@{B\\yBL{A?UDk@XSBWEu@Yu@O_BMkAC{@@aBRwABcCR_Dl@kAXaC`@q@ToBrAs@l@mBvB{@jAYZa@RwAd@m@ZKLU`@e@hAaB|EIp@CvBOl@_AvASL_ATKDSV[h@c@v@_@~@cA`DiAtCq@rAiAlBO\\a@jAa@zA}ApEw@pCYtAg@dDmAbFUzAAp@NvAPzBBx@?f@KrAc@lBEb@A`@Dv@XfBDv@?x@]|FCtA?nAK|CANMj@OVKFwAr@[Ha@@_AOo@Gq@Cs@@wBLk@L{@XmANi@T{@r@WNWFo@DWDUHcAv@s@J]TSb@Ov@k@|EE|@FxAKdAOf@It@KLOl@Iz@@n@?~@F|@@h@DT@VAXKr@W|@a@j@Sb@Uz@QVYp@a@j@Yt@s@rAg@lA?\\H`@Dn@?p@EPIx@_@hBKXAR?v@@D@TAn@Ht@AF@XATHb@@^Fb@?b@Mf@ULY\\GNKLO\\Ql@c@pBGv@@LCRBRGjABRE`@@`@EV@lAC\\Bb@Ep@IT?JG\\?VBh@GNAp@EL?TCFDZAJ@`@Aj@BVCZNvAAx@K^Kv@In@?`@EVITOLGL?ZF?Vc@T[b@y@\\w@HCHKNELQPMFOTQFQV_@XU@ENMP]RMZ]NUPQN_@ZWNQNKPSNc@HILg@NW\\}@r@_At@w@L[NMd@UZKZ]l@OJQRUVm@Ts@Ti@J]Hg@Rm@JMFa@HQHe@@s@Jw@Ha@RWJCF@XZZ`AFn@DJFX\\h@t@n@JFVDr@HvA\\LFb@\\z@f@~@^vAPVAZDd@ZNNNJVf@Hb@Z\\LRh@fAz@hEL`@lAdBd@j@Nd@?nABXGVWJSTw@d@c@h@CFGJCRO^SJGHM@AHGDK@EF@Di@PYTy@\\m@^c@FaAd@E?]VYLk@t@Of@Kx@J|A@jAFVHRPTd@LhAh@b@Lj@N^BzAAp@N^VXXbA|Av@t@f@RpBZ|An@XNbA|@PRLZHZ@`@EXGZUl@]f@Y\\w@b@ADWDSNEPW\\Md@{@vAWd@m@z@_Ax@iBtBYVo@x@]Nc@DAJGLQBa@CGBSNO`@IJALQ@CHIL@VCt@BdAJd@JJFVJRVZXRn@t@b@z@bAnAf@`@r@dATn@BV?f@ENCXFJEJJ`@W^Qd@KNSFEFBJCFW\\EP@FWd@CRUb@Ab@CFe@fASj@QXUHeBVs@FiA@_@FIFORCRb@pAVZb@\\|Az@z@v@l@^VHZDfAEV@t@J`@?f@Gd@D\\CH@NNDHDTUvBGdAC`BFn@f@~AFXJz@@\\?bAWzDGxB@nALdDBbCAxAE|AMdCo@zHMz@o@vCGjABr@Hn@FVd@`AHTBXMrA{@vEe@zAuAdDQx@E\\E~A?^Dd@N`Ax@rDTnAFh@Dj@?h@OrAMd@uAxDKf@AjAH^TX`@@^E\\KZQ\\UvAmAz@o@\\Ov@QfCWjB[^C\\FXTL^tAxGHh@LvA?l@UfCIzACjCIzAm@pD[dCcAfJSzAo@tDs@bCc@jAGh@ChCGj@]pAeBnFc@vBOnA[`FCjAFvBZlE?rAMrAWnAiAzDQjACb@F`@NZVRZJ\\@ZGVSP]L]bAiDtAcD`AyAr@w@XS\\K\\ErCOv@Mn@UTMf@a@PQrAyB`@yAf@yCj@aCTq@f@}@x@{@|BmBvCoCvAgAjBsAp@y@n@_Af@m@f@c@rBkAJKVg@ZmA\\gBd@yCJMFQVyAj@oBBQ^_ATqAJ]Ro@Zq@dBcCFQLMRa@Nc@Xc@b@kAXa@Ng@^m@Lg@V_@NKDKPiAL]HMPc@Ro@Lu@Hy@ViAP_@L}@Ve@b@uARqA@YJo@Hy@VkBHmAZkC@c@^}DJaCPgBP}@HgAV_Bn@gFHWR]JYHK@HI\\O\\EXE\\@d@Gt@_@`CEhBA~BBz@KbBBtB\\hCJb@NnA?TEl@Ml@A\\W|@QlAGl@Op@?VQp@ItADZCb@BVChAGj@BVIvBBf@Av@F`C?tAAh@UtB@VEl@Av@Mx@I~@EdBBb@Er@O|AWdBG|ACtAGx@W|ASt@Wf@oAdBUd@O\\WjAI|@?p@B`@LbA`@hBRf@Vn@X`@~CnCx@t@fAx@tBxA^N|DpAf@ThExA|@^rAb@tCz@tCp@hD`At@P\\LdAn@H@FG?IKKwAy@{@e@mAg@YSo@_@c@QUMe@Oc@YUKgBkAyAsA[a@}BuBaAoAcAiAq@iAa@c@g@{@]_@y@}A]e@c@eAUs@CW@q@HQFALFd@b@NFLBh@GhBc@fCOh@QFG^Ih@i@t@e@\\DZRFLDZDHNNLBPGHYFuBLYJKLAPLN\\DPBd@FNR~AFVZd@JVTrA?PMn@A`@W~@EXA`@BVHNl@v@NFLAJEJOL]LcAj@{ABi@AWIYCeACa@i@}CGk@Cy@YiAGe@GyA@i@Fc@Vw@l@iAN_@PSLSJKNEJKb@m@ZY^g@~@_Av@q@rAyAdAs@X_@N[V]\\[NUf@}@Ji@\\gAHc@@a@EeA]aCaAqDIy@EaBQoAc@eBYoEAy@H}@R{@r@}Bj@mAn@iAX_@h@a@VYz@qAd@}@PKTC\\DTAJEl@k@XG|@G\\MxAaApAgAhB{@f@e@P[BM@]GwCAKu@gCIo@B_@Lu@Xy@r@oATw@Vo@Ni@Pg@h@_Ax@_ATa@d@i@Vm@HW?[Sq@GIk@o@Oa@SeAEu@@WHY^m@\\i@b@e@XOhA[VUn@q@jA{@bAk@ZYn@{At@oBR_@b@sAd@iAJu@J[f@i@`@u@RGdACXEZKHIFKFq@@q@Ea@S}@Ae@Fo@R_AFo@?a@QmACi@@SJe@JOJGVMnAM`@MVQNSXe@v@oB\\c@Lw@Ne@n@}APQHCp@Gp@Pp@b@RHX@XCdBs@fAgAf@_@x@M\\Bz@L^@^GLGNGT]\\u@x@wA\\eAH{@A}@Gg@EKQQIGyCm@kAm@_Am@SIuAKI@q@XW@y@AUCGEEO@IHSl@_@t@u@p@kAh@s@hB_Bd@i@bAwAlAyBRa@Rq@n@wALa@lB_Et@gB^q@l@iBLWDYTm@r@cBL_@n@oATy@b@}@j@eAbAkCF]Rm@Vg@JMPK\\KbALd@EPKDM@][aAASBWFU|CeHpB}EdBoEJOJEHAXDf@PZNn@j@LFNBN?NE\\Qj@g@NKx@[v@e@fAg@`@]h@u@LEB@DTBl@\\dE@bBCf@M|@_@pAU|@CTF~FN~AJf@L^TXj@`@z@b@~An@dDbA~Bf@lAXnBp@p@Z\\VZZJNr@zAd@d@pEzClBxAb@Ph@HVCTIh@YnBgBrCsCf@_@VEX?XHfAj@TJVDV@TERId@c@^o@Xu@hDaL~@cChAwBbBmCz@cB\\uAL}@B}@B}AEgK@cEGuFA}J?uCDaHK_R@sIC_F?uPCsJGkDDk@FQ`@QNAvCJhFFh[PzFF`D?dAEdAQl@MvAk@f@]hCsBxD}BjB}@~BaAxAs@l@SVEV?VDTHj@^rB`Bz@`@f@Lj@@nA?jA@~GVpFLhC@j@Ed@UjAcA\\Q^Gp@?vBDrA@bDIzL?nJErDEzAK|@KR?LLJRF^CtC?lCCvDCnM@jY@XLl@Zp@h@xANv@^bATjBZtBD~CIvBA`BJhBIl@Y`AOp@Ej@Bj@Jr@JRFBF?JI^m@v@g@xCmCFCN?f@TH?NI~@}@VOvLkKfEkDZSvAmAfAeA~BkBfEuDt@u@jA_ApAoAnFkEh@m@b@a@fAo@rAyAvDcCzAgA^_@v@aAzAqAtA{@`@Il@GNEx@_@|EwChDwBjCwAf@a@x@{@b@YZQbA_@vA_A`B}@~AmAjAo@jD}BzBqAf@S`@[rAs@LEH?ZZn@F`@h@RJP?RGXc@b@qAHc@L_BJWNUtAcAhBkAhCwA~Aq@jB]tFm@fCo@h@KzCY~NaC~BWfBYvBi@tDuAlAm@hAq@LEVCTDLLR`@J\\PrBTnDh@bEFNJHLBVAHERm@z@oFn@qCX}@lBiFz@_BHWHk@JYRSHEJ?PJLRN`@DVBp@PnB`@fC`@pANt@XjDF^Nh@NJJCLIHOHy@LiBHa@[iCG{@Ai@@qAHe@Xw@Fi@IkEBm@DQFKLIh@Mx@O`BOlAYj@AfBM|A[hAMN?ZFJFHLJ^l@pFJj@X~@jA`CpAzA\\f@~BxEXx@Nx@`@tDL\\JHN@NGZUV]Na@H_@@]DuCAmJN{ELoBN_ARs@\\c@VM^Ml@C~BJjBTzBTp@LX?VKJIRY`@}A\\q@LGJAt@HLCf@]z@YZUp@y@V_@T_@VYJGbBY^OLIZ]r@gApAgBVc@f@gAHKJEJ?ZJFFT`@LL^Rb@N^XPFR@~@[^?\\JTXNZh@tAFJRHVGTMJQTo@Xg@h@w@VUPIREjAMf@CVMR]Le@\\oCHs@@[FUDYFwBBiCL{B@gCFwAIa@CkAa@kAMm@K}B@q@F[n@cB^o@n@s@N_@DQ@a@IkAIi@Ma@MUGAy@h@_@JaCpAw@VmBx@E?GK@GRMRQp@oApBmBXQnAk@RSb@y@`@]`AU\\Sp@qALBFFj@z@F?FC@IEo@A_AIq@Yy@g@cAQm@Ei@GOGAGB]Pk@d@g@XKDM?UEIGEKE_@AgC_@_D?e@HgA@_@ScCBcAAc@@a@No@@u@Da@Ek@HOFA\\Ph@Lf@ZfALF?HENSH[Bq@COGc@e@gBIi@JaALm@Vg@LMLGTAb@AhA@nBA|GDrBC~DD|@LRHRJRR|@vA\\XZPRA\\KpAq@TGVAZ@t@JfARt@Tl@J\\B^Cr@M|@YbBw@|C}Aj@c@pAiAxA}AdBeBx@q@XOXI~AMp@Qb@WlBcB\\Sl@UbAQlAO\\?\\HVTjA`B~@`A^TVJj@JTAREn@W~@e@vB_Ax@Yt@STOPYNc@Dg@Ak@i@qC?]J_@P[b@g@V_@fAcC|@cBl@cAxDcFrDgEp@{@p@uA`A{Cf@gAXe@Z_@x@q@Ze@`@{@^k@l@a@\\Kb@?VHPPd@n@pAfAr@r@hAx@p@`@`@PdA`At@`AJDJ?DCDMDc@KqBCmAJ{@Rs@PQJIv@WzAWTAH@LFr@`AVLN@NCRMf@a@TWRYNc@V{@TaATqAdAaDr@uA|FqMx@{A~E{Gh@i@^Ul@]b@Mb@E`@?v@Hn@LNHZT^n@Pd@b@dDRv@R^z@jAdClEfArBZz@PbAHfACp@U~AGr@Bt@DXHVLLTDn@?vAKzA[n@S|@o@j@W`B[bAa@`DkBl@e@RW|AgC|@kAj@m@n@k@hBmAp@i@n@s@fAoAr@m@pGkEhCoARGnC[^?HALSb@aAVc@Xq@zCcGrAyCjAwBXy@p@cAb@y@P_@Ps@HMdAuAPi@Nu@POPG\\C|GG`@BbAEpDCnC@jKGpCBd@RjBhA~CdB|@j@jA|@PD^A^Dj@@f@D\\HTLTVt@vAN\\ZrAJTPp@BVFPZrAf@xCr@fDTvAD`@DdCDv@NfB`@fCXp@l@jANl@h@hBLXXd@d@h@`@Nh@Dj@@\\GZMRe@Jg@Hs@VaADIRSJ]FG\\w@FI~@w@j@OFITs@N[Ps@P]d@g@\\U~@IHGDKBg@K_AFkA?Uc@gCG{@?eABw@Ly@HYnAaERqANk@Xo@LSPQPKRET@f@^r@v@|@lA^^NJd@P|@FfBIl@?jFFpCAd@BXLFLDZB`JPvLB~E@h@@FHFD?|@y@|DmCjIcFdA}@bBoAXMlA]`B[`Dg@HBPJDR@^GbAIx@i@hGEh@?r@Jd@Vb@d@h@XNPFZFxCRlBh@`EVdDZZHPJh@^RHl@d@LNXh@^j@Xf@Z\\PXVPh@R^J\\Bl@Lh@P\\FX@VFJ?XLHCVDRAd@H\\NV?RFT@HFFALDR@LIJBFAFIFDFAV?`ANJF^?NRL?BBHCNID@FADBNGXJDCJ@LGNBDCDYJITGd@Gj@AdA_@PCLITCdAIN?RFPJNPHRAt@c@p@g@vA?ZELAPABE@KLEP@HOj@EDKT[PEDGNMNi@VQFY@g@LcABUEWKiB[a@Eq@AYGgAi@SAODs@j@qApAYd@Yp@Yd@Kl@OzBIn@C^@r@Mv@?FKRGFKB_@FsABqAWg@Ac@P_Ar@OR@\\LBp@c@`@GT?rA^b@Fl@A~@HZ@nAKHGNYJKl@_AXUHCXc@`@_@JAp@YfAEN@NBJ?z@NfAd@FP?HEFI@KE]@OLELi@^IPSNIVW~Ai@dAKLa@|@G`@BRFJt@JHCN?BAF@N?v@]T]LGFMNMd@G@EZKXBn@]TC^DFH?JEF_@DWJKLC@MT[VIBILSn@Mv@g@fAOhAAZGv@_@z@ONKTMNWLK@QNQ?SFi@DSJMPGRFXLDX?l@Dr@Cx@PN?^FHAf@K~@k@tBaAXI`@AF@VT\\RXZPHb@DZFdA^n@h@FPV\\BHPPRd@\\`@JBFCLQRa@FCDIHENS\\QRU^WPEPKh@e@f@i@\\SZAl@Ot@ETYLCVLD?PHN@FBTTFN^j@LXFB`@^b@TVVLBP@PER?RCL@FCHKHAVS`@SZY\\K^U\\AHEPDx@FdAXZ@|@SFK\\Gn@JXHd@T`@`@DTH`CAJLxAL~@Pr@fAjBN`@R\\Pb@\\tAPhAA`BNrA@fAN~APvA@ZZ~@`@x@RXH^?RELKFKA[q@YWQa@}@mCiA}AGUWa@]a@Q[KKQ]c@o@Se@QWc@Ui@K_@@ODOLIN@^U|@Q\\Y\\ANDPHFJDh@Cf@Jb@N\\TLPR`@PVZ|@v@bBJZBLN`@DZJx@A`@DdA?dAIzAChBSzB[rBAZKb@Sh@[jA_@v@_@b@]|@If@E`CEf@MbAGR]Tg@P{@\\m@j@qB|@YTiBbAOVWXc@n@OZe@n@{@~AY`@U`@eAnAk@bAsA|AS^IVY`BUr@GV@XTrADz@CbA@pCVfCbArE\\lADr@D`@Tp@`@zAT\\PPJPLb@`@h@Tp@D|@J\\`ArANZH^Rh@h@x@VXT`@VZrAnCTX^XPR^r@LNZVVHt@l@\\h@Jh@P^PVDDRDbAJRPBLIp@CNMVYl@_@f@QNm@VCL?ZFZ\\f@j@lAd@t@Rf@dAnAl@jAVtADd@?^D`@Rx@Ll@Fh@Pv@LVj@|@n@rATh@H^D`@Cn@HdAAl@SbACx@PpAFZRd@lAbB^JZCTFv@@r@Ij@YTARDf@Ol@_@PWZu@d@q@bA}@LGX@`ASxD[V?z@LV@l@Cn@I`@Dr@Ed@Bf@CHCZ[LIHA`@@RGXOLALGJI\\a@nAo@JMHUNiALwB`@kCh@mE@OCIEIIAGAEBCF?f@DxA?T]xBQz@IlAEjAQpAOZYPu@Zq@r@YF]Nq@BMBKF]\\WF]?e@Ce@@g@C}AHcBKgAJsBLaAT]@SJeA`A_@h@[t@SZULi@VSBg@EG@i@Xq@Ji@Ce@Ke@?GAOK_AwAOYU}@Ec@Cg@@e@N_AB]?k@Cu@?s@AYG[eA_Cu@gAUo@[wBW}@E{A]aBK_@c@q@}@aAYq@e@s@a@}@[e@IYE[BUBEl@WRQXa@d@aARm@B_@COEKKEgAGUGGGc@u@Gc@MWQSe@[w@c@Y]m@}@o@m@wAoCo@eA_@a@a@o@KS_@kAkAkBGYCq@Ww@[_@[w@c@c@IOs@yCKgAI_@g@kBq@aDQiBEs@BqEYgCDa@J]ZaBNg@Vg@lAwAr@iAnAuA~AuC|A_Cl@u@d@_@hBmAtAm@`As@rAa@\\OJKFOJe@HwA@_B@WHq@Rk@n@w@Xg@x@yCR_AVyBLmCRwCFmBC{@O{@a@sAi@oA_AcCYk@c@g@QQQISES?mATICEEAOh@}@FOV}AL[LKZIJANBRFRLvA`CdClD~@~Af@dAj@dBr@lAFFHAFCFG@MG[w@qASg@Mk@i@qDEiBIiADaBAUMkAGYc@oAy@kB_@o@Wu@I_@QcBGgAGaCIm@e@s@a@[}@_@QGO?c@Hw@Hi@EiAQo@Gs@Hm@Vm@^g@f@i@^g@Tc@BQGe@]}@kAu@kA]c@]U]IKAw@Bc@Bm@Pg@X{CbCs@r@]b@m@nAKLK?GC_@o@uAaBQQQKk@SaAKOE[SeAcAQGSAU?WBSFcAb@oAr@m@RSDg@@q@CiBDMCQIEKBYDGd@Sl@It@CNEZOl@o@Ve@HWR{APm@^cAFWN{ALi@r@qA^e@f@SZCJCDGGSMMWEMBYJiBbA_@VcA|@a@X{@\\w@`@S@IEGGCIH_@x@iBPo@DYFqALs@L]RWj@c@b@GZ?RADE?GCG]Wy@]c@KUGUAaA@SDeAb@SNm@x@s@r@k@p@]XOFsALeBJW?i@E}@YQCSAa@Hi@ZEAECCU@KJWXW`@MPA`@BbAV`@BrBOZOJUR_BFu@@wAF_AF]V{@b@{@j@w@TWbA}@ROb@IP?lAh@dBJbBVt@DlAGr@Kn@Yj@]f@k@\\s@\\{@b@mB^aA\\u@Re@CQCOQUc@SeACqAJiBFi@HUHw@d@SFcANs@Aw@C_AM_@A_@?gAH{@E}@MuA_@oBOsASkBYm@QSMOQa@i@q@aBKSQOsAw@q@U}D]kBIcAKg@I_@Mg@KuCMq@M]Qa@c@]k@IQCUAWBY|@eL?QEa@EMGIKCY@iF~@eBj@gAr@aBtAcE~ByBrA{BzAuB|A]ZEBG?EECU?aCA_EOeF?iBG}E?gCEg@M]SSYEsKCuCJs@G[K_@WaBsBi@c@YSa@IU@ODSNU`@]hAIz@eBfGOfBCz@HnA`@dCCnALx@AXELIJGDq@AMBSP_AjAELE`@Qb@Oj@MZOJO?eAv@UZg@hA_@l@GN_@nBQj@KRQJe@LU?{@Gc@MOKa@w@s@qB[iAUs@g@cAUu@UyAW}BKaBEcBIaAE_@[wAg@iB[oBGw@Ow@}@sDWw@aA}AOMQIe@OcBEe@@]KmBsAaDiB{BwAa@Qc@EgKLsH@cEL]CeA?cGBOHQNMn@Ur@eAtAIRQn@Qb@gAlBO^oAxBmCtFeB`Dg@rA_@n@g@dAOJo@?q@LgACOBm@^gBx@}BbBeCxAuApAc@j@q@v@iAz@aB`Ai@d@}@~@iAxA[f@c@dAc@h@_CnAu@f@q@\\e@Na@@{@Pg@Vm@j@k@T}B\\}@Bi@EQEMIKOIe@Ao@TmBBo@?s@Ea@OiAM_@[w@sByDyA_C]_@m@w@KUm@_EUq@]g@QQWMaASaAKo@DUHo@X_@Xc@d@kDdFe@j@w@tAi@dA}BlFuDbIi@hBc@pB[nA_@v@g@l@[ZOHQFQ?QCOQ[i@OOSKUCk@DcAPk@RQLQPMTIZE\\Ez@?v@LrBGr@GPI@KEIKWg@W[{@y@a@]qAu@uAgAsAmAe@i@SQUMWIW?WDSLi@f@]h@Wn@[f@iAz@OPy@zAo@fBk@hBm@jA]d@wCdDoE|FqAxBYj@w@pBWh@iA|AIX?d@DZZ~ADr@Gl@Wn@YTsDpAwCvAWH[Bk@I[M_BsAW]k@_AYWMG_@G]?qBTs@Ta@Ti@`@}@v@u@f@m@P{AJg@LWLk@`@cC`CiBnBmAhAwAt@oErBq@Ts@Ju@CiCq@}@O_@A_@BOB]L{@b@]JO?QEOI_@[y@iAm@k@c@Qc@Ci@CaCCqO@{BD]BQH[`@KXGVGbABZl@tC@v@Gf@W^GDYIY@SC_@Wu@OYQM@EJFr@E^?r@Qz@A\\B`@Er@VrCIpAAf@Dd@ZrBDr@BdBDh@FFFB`@@l@_@h@c@^SFAHBBD@h@Pp@l@lAX`ABf@?dADX?NCFGBCAi@w@QSIAGHQh@[d@m@Rc@FQH_@^[r@KNUH]To@VQLyA|A]j@Sb@OTQJELBJH@VQh@Ot@_@x@W^Yd@S\\Wn@MTULIL?LPHTJr@?h@Fv@ATM^MTIL[RMXKJI\\MRCVUb@K|@?j@Dj@@n@Hv@`@hABZCb@L`@@LEnACxCMxBChCGpBALIRAf@CXg@rDKZOTMLK@m@Bc@Fw@LQFk@j@Y`@}@pBKLOHMBMGGKa@qAQ]U[MKKE[CMB{@\\S@KCo@i@aA_@OMSYQMSIKAOJ_@`AWb@qAbBaAxAYZULm@J]Lo@DKDi@dA[Zo@z@SPu@P_@ZOHM?q@GWFKL[p@_@xAORQJSFO@_AQ_BSiCUqBK_@?]Be@LQHU\\Y~@Kz@MxBG~DE~LI`C[|@Y\\OJOFM?KCOQGUQwBKs@UiAK]Qa@QUYi@KUOm@s@qA]g@{@{@Ua@cA{BUs@Qs@OkAI[Cc@SqAMm@KOMMe@Iy@HwATkBTeAB_@HoBPmATQFWNUVERC`@D`EE\\]xAE|@DnBP~B@l@MjAOtBEHMLG?MGIQIc@OaBQeAQy@o@yBOu@YmBE_BGe@GQS[KGYEIBGHEJK~@GVUj@W`@[t@kBnFa@rAs@xDi@lCQd@ILKFK@KCSOEISeAKs@UsC?s@UkDO_@]g@QKOC_@Jc@^cAh@gBt@kBr@gCn@sBZuBVuAV{BVq@LiEn@gAR}BTwA\\mBZeFn@qB`@kAd@gCvA}BtAyAfAOVENQnB[xASb@SRIDSEq@m@KEWCm@[YFKDiDlBeAh@sBxAoDnBkAx@uDvBkB~@e@\\q@n@kA|@u@b@]N}@n@wAt@{ErCk@ZUNq@Xw@HYHu@\\mA~@gDpDgAv@iAp@qA~@YRiAhA_Aj@w@v@a@d@kCxBm@`@kAbAw@v@mA~@sGzFyAjA{DhD}BlBcBxAk@d@WNuAlAkBvAa@d@uAnA_Ar@{@x@SJIBI?g@KI?UFYToBjBw@j@k@p@IFG@IACIMq@E{@@]Ji@^kAHk@As@EgABeBHwBEeCEc@q@uE]aAWgA_@eA[q@Ic@Cg@?yLBsQAeP@kD?UCQGOSU[EoADeGFqGDwJB{JJwCGi@@e@DWJa@Xq@p@WNMDk@@sCCoCC_FMaDMqCCi@Eg@Mc@SkCkBc@We@MYAYDc@L}BdAiC`AcDdBoBhA{@j@i@f@cAp@eAf@g@Pm@JuBLwDAgCGuEG_GE_E?qDGaGE}B@eCC[BQBOVCTFxHCrYFzw@Cr_@A`AGt@ShASn@e@bAkCbEo@pAu@lBaEdMi@lAY^UROJQD[@e@QuA}@WIOCI@]RoAjA[b@YVOTa@ZUZ_A|@]PWFWBY?WG_@Y]O_@UaAq@yDgCe@e@}@cBWYWUyAs@m@UsBi@uAWoAc@iCo@}CiAe@WUUUg@SaAEu@EoACoC@o@DYv@gEDc@DgA?c@OeCYmCG[ECM@]p@STSP}@\\_Ap@q@VWPm@r@WPYJQ?OEc@e@KIcA[[GU?QNaCzFo@tAILmAbDi@jA]z@g@~@IRCN@T^~@CPOXEFYFS?_@GYB[L]Xg@pAUz@INM`@MTOh@c@r@m@nAM^G`@a@v@MJWr@[l@w@xB[l@Sv@c@r@e@lA}BdFo@bBgBtDw@lA{ApBy@p@_@Vs@p@OTUl@[V[b@IF]HKHKPEXBLRDNHNB~@@f@UJIREr@?f@D\\PTF`@XNNj@Zz@TTJR@bATPLJX@fBUxAYv@q@bAa@x@MLGLGD_@JM?_@Ea@MUE]Fe@@y@d@aAhAyAt@]Fs@Eo@c@{@U_ALOLWh@IJ]z@Iz@GHWRMR_AdCOLUZUPMBW@_@J_ALMFS^C^Fz@Hj@B`ACRYbAEj@?d@Rv@Bp@?jAQj@MJaATSBe@AGB_@r@STSFEDOfAYn@KZWf@Qp@[l@{AhDQXYTSBUHWVYPQVaAdAsAf@G@]Vq@t@q@`AKVA`@DbBTr@V\\ZTPVNv@?X_@~@YRQR]h@s@v@w@vAIZEXOXe@|A[h@]z@Qx@AlABJJXFJFXTn@@J@x@C`ADlAGXs@bAUNi@Ne@TUFm@d@KNg@b@y@f@iAZq@FONAFOTOHqA@K@GDWt@[d@[ZYr@IJc@RQNiAjBg@nAWt@[r@UdAI`A@j@TdEFb@^jANhAHbCDp@Vr@H^\\`AVpALlAA|Ao@zCO^g@v@cBzBeAx@g@b@sE~Eu@~@{@t@g@x@c@lAMh@Gn@?p@FlALl@T~@PnBf@fCHp@HhBEf@c@hAGRK|@M`@GHMDK?KCKIWYS_@GQEc@BQJe@j@uBDUAi@Gi@Ke@g@y@M_@QeAKsAS}@GQUWUDMVCLCv@FfBEj@MRSAOOMaAQ_@YOSCYDYLo@j@_@RYX[LiAHeDh@Q?_@@[EMGe@]U?EDEFCf@Hr@Tz@^|@~CdFpC`Ex@bA|@z@pAbAhBdBlBrAnFzC~ClAhAr@JNADEDG?oAq@k@UcF}AwF{AsN{EoBi@e@Si@[{AkAkGiF[e@Wi@i@gBMk@KuA?]?YHs@Lq@Rm@hBgDVk@h@{BNgAFgDh@oDPsB@s@TqEB}BL{C@cFTaINkCj@{EX{CFs@?mAAYMs@Oq@c@}BEkAA{CH}EJeBXuCb@iD@WCAC@KNWz@K`@{A|J_@xCO`BOzCa@fEiAdIi@bDU~@}BxI}@hCw@~AuCvFqChF}@xBg@hBwDrQg@dBOZUVmBpAq@v@u@bAe@d@iCdB{AlAgEzDy@z@m@r@q@nAk@bBMf@o@`ESx@i@fAy@nAs@d@eA^o@HuBFw@Ja@L]ZiAdBq@xAM`@c@`AoAtD]z@[ZYFUAYKKIEIEMEWAYHk@nBeGXcCBoA?k@]oDGmAH_C@mBDe@HuBJiATkAXq@Lk@bAsCNk@VwABw@AmABSJe@f@mAFYTs@Z}ABe@~@yG`@mF\\eCJeAX{AJgAD{AAgAHcCZoC@e@IeAQcAeAuEIYW]QOa@O]AcBV{@T}@L{@Bk@HMFm@h@aApAUTWNs@Tg@AYIQSSi@Gy@Dc@jAgD`@_ATiABg@CoAKy@YsACYc@qAUkAMw@CsA@{@J{@Le@v@_BnAwDXqBJc@ZeADc@?YESi@}@IYIaCAi@Fi@l@_CR_BRqBn@_JBy@CmFQuBAaAFqB^{CHkBAi@Ce@GWWc@Ui@Gi@?WHeDF_@Ro@@SEOMWWQq@IO@[FY?_A[q@D[CGBs@EWEk@SUMYWaAq@c@Y[KMI_@Qa@YSa@GYc@o@CMD[VS\\C\\Bl@At@Gb@?TCj@?XGPILO\\wAP]J_@Xq@TcA\\{@Vc@p@}@d@u@N_@J]Bc@ASKe@KSWYe@We@a@eB_CyB{BWg@UkAEo@@WRwBLe@HOJGb@Et@Ud@ONKtAuAnAwAtAmAf@s@`@w@|@uBX_@LG^M~@G`@ILEPM^k@V_ALo@Ce@ESIOi@_AWY[Qa@MeDe@i@Qq@c@mAmA_AcAg@YME]CoA@_@AaAOy@]mAWs@]GIIWMeAIWOWGSQsAB_@Fa@Xq@JSb@_@jBeAxAm@`EsAz@c@zA}@`@Ql@S`AQBK?qBOg@Ua@MM_@}@[c@KSu@}Du@wAa@e@Wk@WgAS_@]UmAMiCm@i@WwAw@yA]u@Gc@IiAk@UUMO[q@Q_AMgBEUWu@WUKAQDOTS`@GZIn@Ob@Sd@Mv@eAzDO|@KVWPkAXqAh@iAdA[^Y^Wd@w@vBe@~@sCvDk@dAiBlCmApAKNs@vAUt@GJCYZaATmCPgAAo@ImAEqA?oAL}DXyABcCLiCBaCFy@Ny@j@gBLWXg@v@w@DQ?g@SeDIyCB_A`@qE@[K_BFo@DUHUr@mA|AaDh@_An@}@Xg@JURq@Hs@IgE?}AB[Hy@TwAHaAJ_C`@}FJu@J[JWPOPI|@[z@a@h@Kj@Ef@MvA_APIREhAKjBa@hAGzA?~@FnAPNAf@MvAo@ROLWHWD_A@_GBc@d@oHA[SeBC_BHaAZuALaBEuBSmBQmA?u@R}A~@{Db@iCd@}Cp@oCZ}@TaA~AiEl@sAdAiB|@qB~B{GTi@`AmBRWRQ|@YVOr@}@Xi@DQFi@BcBPiA~@{CfAkCFM^WpBq@^QLKXYbC{Cf@g@f@a@bBkAj@Yn@OlB]dFcAnCUbBEjAMx@AbABfBLp@JdA^TBTE\\S\\Gr@AfCMxEk@~CS~@KdAUnBw@n@GhAFzANVHpAr@h@JdBR~A@`@KLMFSHg@@iBDk@RwAHOJIZ@dDbAx@RxAJ~AFn@FTFh@RTLlAx@f@LT@f@Eb@Q^YxA}Ab@W`@Ml@M\\AN@\\HNFh@d@X^nC|El@x@pAvAd@\\f@V~@XbCp@zB`@`Bf@zGbBdHnAl@NpBr@l@NjB`@h@FpAF`B\\h@Pv@d@b@RhJhCd@NfAd@p@Rj@`@|Ad@~A|@dBb@fDvAnDjApAl@nBr@v@h@pAf@p@Nr@b@b@Jb@D~@\\xAVl@@FCJM@K[y@_@aBc@kAGc@e@eAEg@?m@KwAKa@Wa@QkAKeCc@cGKgDOkDEcBa@_JKuESgG[aHMgDO}BMw@g@yBOy@kA_Fk@{CQk@e@oB]cAOkA_@eBQcAKuASkBCaCByDOiD@_AG_@I}AGkC@eDFiAv@wIVmE?u@UaFIsC_@eHGwBU{CEeBIsAG_AEQIy@IsBOuBEqAC_BFiBByBCiCBaDCyBGgCCQMWGGUOe@Oe@[YYo@_Aa@UKOWCoAB_D?OKQa@q@kF_@}CQoAUoBSoASgBq@sEGo@a@_Cu@oF_B{LuA}Jo@uDeAmIGi@Ak@",
+                "id": "a1130504772",
+                "_id": "59b2df6747956a2a5cfd2ced"
+            },
+            "trainer": false,
+            "commute": false,
+            "manual": false,
+            "private": false,
+            "flagged": false,
+            "average_speed": 4.753,
+            "max_speed": 21.2,
+            "average_cadence": 76.3,
+            "average_temp": 18,
+            "average_watts": 130.9,
+            "weighted_average_watts": 156,
+            "kilojoules": 4580.4,
+            "device_watts": true,
+            "has_heartrate": true,
+            "average_heartrate": 151.6,
+            "max_heartrate": 166,
+            "max_watts": 1465,
+            "elev_high": 3824,
+            "elev_low": 2810,
+            "workout_type": 11,
+            "suffer_score": 426,
+            "__v": 0,
+            "description": "",
+            "calories": 5107.2,
+            "gear": {
+                "distance": 3551010,
+                "resource_state": 2,
+                "name": "Mountain",
+                "primary": false,
+                "id": "b1242187",
+                "_id": "59b2df6747956a2a5cfd2cec"
+            },
+            "tssScore": 318,
+            "end_latlng": [
+                39.25,
+                -106.29
+            ],
+            "start_latlng": [
+                39.25,
+                -106.29
+            ],
+            "zones": [
+                {
+                    "custom_zones": false,
+                    "points": 28,
+                    "sensor_based": true,
+                    "resource_state": 3,
+                    "type": "heartrate",
+                    "score": 426,
+                    "_id": "59b2df6747956a2a5cfd2ce6",
+                    "distribution_buckets": [
+                        {
+                            "time": 25,
+                            "min": 0,
+                            "max": 109,
+                            "_id": "59b2df6747956a2a5cfd2ceb"
+                        },
+                        {
+                            "time": 4596,
+                            "min": 109,
+                            "max": 144,
+                            "_id": "59b2df6747956a2a5cfd2cea"
+                        },
+                        {
+                            "time": 29368,
+                            "min": 144,
+                            "max": 161,
+                            "_id": "59b2df6747956a2a5cfd2ce9"
+                        },
+                        {
+                            "time": 1016,
+                            "min": 161,
+                            "max": 179,
+                            "_id": "59b2df6747956a2a5cfd2ce8"
+                        },
+                        {
+                            "time": 0,
+                            "min": 179,
+                            "max": -1,
+                            "_id": "59b2df6747956a2a5cfd2ce7"
+                        }
+                    ]
+                },
+                {
+                    "sensor_based": true,
+                    "resource_state": 3,
+                    "type": "power",
+                    "_id": "59b2df6747956a2a5cfd2cda",
+                    "distribution_buckets": [
+                        {
+                            "time": 7911,
+                            "min": 0,
+                            "max": 0,
+                            "_id": "59b2df6747956a2a5cfd2ce5"
+                        },
+                        {
+                            "time": 601,
+                            "min": 0,
+                            "max": 50,
+                            "_id": "59b2df6747956a2a5cfd2ce4"
+                        },
+                        {
+                            "time": 1835,
+                            "min": 50,
+                            "max": 100,
+                            "_id": "59b2df6747956a2a5cfd2ce3"
+                        },
+                        {
+                            "time": 8819,
+                            "min": 100,
+                            "max": 150,
+                            "_id": "59b2df6747956a2a5cfd2ce2"
+                        },
+                        {
+                            "time": 9833,
+                            "min": 150,
+                            "max": 200,
+                            "_id": "59b2df6747956a2a5cfd2ce1"
+                        },
+                        {
+                            "time": 3811,
+                            "min": 200,
+                            "max": 250,
+                            "_id": "59b2df6747956a2a5cfd2ce0"
+                        },
+                        {
+                            "time": 1210,
+                            "min": 250,
+                            "max": 300,
+                            "_id": "59b2df6747956a2a5cfd2cdf"
+                        },
+                        {
+                            "time": 501,
+                            "min": 300,
+                            "max": 350,
+                            "_id": "59b2df6747956a2a5cfd2cde"
+                        },
+                        {
+                            "time": 215,
+                            "min": 350,
+                            "max": 400,
+                            "_id": "59b2df6747956a2a5cfd2cdd"
+                        },
+                        {
+                            "time": 130,
+                            "min": 400,
+                            "max": 450,
+                            "_id": "59b2df6747956a2a5cfd2cdc"
+                        },
+                        {
+                            "time": 139,
+                            "min": 450,
+                            "max": -1,
+                            "_id": "59b2df6747956a2a5cfd2cdb"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "stats": {
+        "weeklyTotals": {
+            "date": "08-07-2017",
+            "day": "07",
+            "names": [
+                {
+                    "name": "St. Kevins to the hairpin and up the Blvd.",
+                    "activityId": 1123817137
+                },
+                {
+                    "name": "Mineral Loop, Pipeline out to Twin Lakes and back. Supposed to be an easy day... Hmmm",
+                    "activityId": 1125570600
+                },
+                {
+                    "name": "Gu ride in Leadville",
+                    "activityId": 1127142836
+                },
+                {
+                    "name": "Leadville Trail 100 MTB - 9:50:49 - Thanks to the whole Mt. Hideaway crew and my lovely wife, I couldn't have done it without you!",
+                    "activityId": 1130504772
+                }
+            ],
+            "tss": {
+                "day": 573,
+                "total": 573
+            },
+            "ss": {
+                "day": 636,
+                "total": 636
+            },
+            "dst": {
+                "day": 314222.6,
+                "total": 314222.6
+            },
+            "time": {
+                "day": 61040,
+                "total": 61040
+            },
+            "elev": {
+                "day": 5803.6,
+                "total": 5803.6
+            },
+            "cal": {
+                "day": 8739.9,
+                "total": 8739.9
+            },
+            "kj": {
+                "day": 7838.5,
+                "total": 7838.5
+            }
+        },
+        "dayTotals": [
+            {
+                "date": "08-07-2017",
+                "day": "07",
+                "names": [],
+                "tss": {
+                    "day": 0,
+                    "total": 0
+                },
+                "ss": {
+                    "day": 0,
+                    "total": 0
+                },
+                "dst": {
+                    "day": 0,
+                    "total": 0
+                },
+                "time": {
+                    "day": 0,
+                    "total": 0
+                },
+                "elev": {
+                    "day": 0,
+                    "total": 0
+                },
+                "cal": {
+                    "day": 0,
+                    "total": 0
+                },
+                "kj": {
+                    "day": 0,
+                    "total": 0
+                }
+            },
+            {
+                "date": "08-08-2017",
+                "day": "08",
+                "names": [
+                    {
+                        "name": "St. Kevins to the hairpin and up the Blvd.",
+                        "activityId": 1123817137
+                    }
+                ],
+                "tss": {
+                    "day": 71,
+                    "total": 0
+                },
+                "ss": {
+                    "day": 51,
+                    "total": 0
+                },
+                "dst": {
+                    "day": 28315.4,
+                    "total": 0
+                },
+                "time": {
+                    "day": 5123,
+                    "total": 0
+                },
+                "elev": {
+                    "day": 402,
+                    "total": 0
+                },
+                "cal": {
+                    "day": 793.1,
+                    "total": 0
+                },
+                "kj": {
+                    "day": 711.3,
+                    "total": 0
+                }
+            },
+            {
+                "date": "08-09-2017",
+                "day": "09",
+                "names": [
+                    {
+                        "name": "Mineral Loop, Pipeline out to Twin Lakes and back. Supposed to be an easy day... Hmmm",
+                        "activityId": 1125570600
+                    }
+                ],
+                "tss": {
+                    "day": 139,
+                    "total": 71
+                },
+                "ss": {
+                    "day": 127,
+                    "total": 51
+                },
+                "dst": {
+                    "day": 91566.8,
+                    "total": 28315.4
+                },
+                "time": {
+                    "day": 15897,
+                    "total": 5123
+                },
+                "elev": {
+                    "day": 1113,
+                    "total": 402
+                },
+                "cal": {
+                    "day": 2188.7,
+                    "total": 793.1
+                },
+                "kj": {
+                    "day": 1963,
+                    "total": 711.3
+                }
+            },
+            {
+                "date": "08-10-2017",
+                "day": "10",
+                "names": [
+                    {
+                        "name": "Gu ride in Leadville",
+                        "activityId": 1127142836
+                    }
+                ],
+                "tss": {
+                    "day": 45,
+                    "total": 210
+                },
+                "ss": {
+                    "day": 32,
+                    "total": 178
+                },
+                "dst": {
+                    "day": 27968.4,
+                    "total": 119882.20000000001
+                },
+                "time": {
+                    "day": 5015,
+                    "total": 21020
+                },
+                "elev": {
+                    "day": 546,
+                    "total": 1515
+                },
+                "cal": {
+                    "day": 650.9,
+                    "total": 2981.7999999999997
+                },
+                "kj": {
+                    "day": 583.8,
+                    "total": 2674.3
+                }
+            },
+            {
+                "date": "08-11-2017",
+                "day": "11",
+                "names": [],
+                "tss": {
+                    "day": 0,
+                    "total": 255
+                },
+                "ss": {
+                    "day": 0,
+                    "total": 210
+                },
+                "dst": {
+                    "day": 0,
+                    "total": 147850.6
+                },
+                "time": {
+                    "day": 0,
+                    "total": 26035
+                },
+                "elev": {
+                    "day": 0,
+                    "total": 2061
+                },
+                "cal": {
+                    "day": 0,
+                    "total": 3632.7
+                },
+                "kj": {
+                    "day": 0,
+                    "total": 3258.1000000000004
+                }
+            },
+            {
+                "date": "08-12-2017",
+                "day": "12",
+                "names": [
+                    {
+                        "name": "Leadville Trail 100 MTB - 9:50:49 - Thanks to the whole Mt. Hideaway crew and my lovely wife, I couldn't have done it without you!",
+                        "activityId": 1130504772
+                    }
+                ],
+                "tss": {
+                    "day": 318,
+                    "total": 255
+                },
+                "ss": {
+                    "day": 426,
+                    "total": 210
+                },
+                "dst": {
+                    "day": 166372,
+                    "total": 147850.6
+                },
+                "time": {
+                    "day": 35005,
+                    "total": 26035
+                },
+                "elev": {
+                    "day": 3742.6,
+                    "total": 2061
+                },
+                "cal": {
+                    "day": 5107.2,
+                    "total": 3632.7
+                },
+                "kj": {
+                    "day": 4580.4,
+                    "total": 3258.1000000000004
+                }
+            },
+            {
+                "date": "08-13-2017",
+                "day": "13",
+                "names": [],
+                "tss": {
+                    "day": 0,
+                    "total": 573
+                },
+                "ss": {
+                    "day": 0,
+                    "total": 636
+                },
+                "dst": {
+                    "day": 0,
+                    "total": 314222.6
+                },
+                "time": {
+                    "day": 0,
+                    "total": 61040
+                },
+                "elev": {
+                    "day": 0,
+                    "total": 5803.6
+                },
+                "cal": {
+                    "day": 0,
+                    "total": 8739.9
+                },
+                "kj": {
+                    "day": 0,
+                    "total": 7838.5
+                }
+            }
+        ]
+    }
+}

@@ -7,15 +7,23 @@ MapPin example:
 > import style from './style';
 
 ```js
-<MapPin />
-```
-
-```js
-<MapPin
-  lat={39.28756}
-  lng={120.19987}
-  color='#D32F2F'
-/>
+<div>
+  <MapPin />
+  <MapPin
+    lat={39.28756}
+    lng={120.19987}
+    color="primary"
+  />
+  <MapPin
+    color="accent"
+  />
+  <MapPin
+    color="start"
+  />
+  <MapPin
+    color="end"
+  />
+</div>
 ```
 
 Lat and Lng are given to this component when combined with google-map-react  

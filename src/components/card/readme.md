@@ -1,0 +1,5 @@
+SimpleCard example:
+
+```js
+<SimpleCard />
+```

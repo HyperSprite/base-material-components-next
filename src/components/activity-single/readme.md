@@ -1,0 +1,5 @@
+SingleActivity example:
+
+```js
+<ActivitySingle />
+```

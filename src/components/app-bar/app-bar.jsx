@@ -9,8 +9,6 @@ import IconButton from 'material-ui/IconButton';
 import MenuIcon from 'mdi-react/MenuIcon';
 import Icon from '../icon';
 
-import ARAIcon from '../ara-icon';
-
 const propTypes = {
   classes: PropTypes.object.isRequired,
   icon: PropTypes.node,
@@ -43,7 +41,7 @@ function ARAAppBar(props) {
             <Icon color="primary" size="md" />
           </IconButton>
           <Typography type="title" color="inherit" className={classes.flex}>
-            Title
+            A Race athlete blog
           </Typography>
           <Button color="contrast">Login</Button>
         </Toolbar>

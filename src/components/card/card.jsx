@@ -28,7 +28,7 @@ const styles = theme => ({
   },
 });
 
-function SimpleCard(props) {
+function CardSimple(props) {
   const classes = props.classes;
   const bull = <span className={classes.bullet}>•</span>;
 
@@ -58,8 +58,8 @@ function SimpleCard(props) {
   );
 }
 
-SimpleCard.propTypes = {
+CardSimple.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(SimpleCard);
+export default withStyles(styles)(CardSimple);

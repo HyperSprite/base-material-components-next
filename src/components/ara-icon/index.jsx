@@ -1,1 +1,1 @@
-export { default } from './ara-icon';
+// export { default } from './ara-icon';
