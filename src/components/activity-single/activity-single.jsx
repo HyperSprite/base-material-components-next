@@ -2,9 +2,11 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 // import classNames from 'classnames';
 import { withStyles } from 'material-ui/styles';
+import Typography from 'material-ui/Typography';
 // import { connect } from 'react-redux';
 import { IconButton } from 'material-ui';
 import DeleteForeverIcon from 'mdi-react/DeleteForeverIcon';
+import OpenInNewIcon from 'mdi-react/OpenInNewIcon';
 // import { ActionDeleteForever } from 'material-ui/svg-icons';
 import data from '../__test__/data-apiv1-activities-1-week.json';
 
@@ -36,16 +38,19 @@ const defaultProps = {
 const styles = theme => ({
   root: {
     flexGrow: 1,
-    marginTop: 30,
+    marginTop: 20,
   },
-  title: {
+  titleBox: {
     display: 'flex',
-    verticalAlign: 'middle',
-    alignItems: 'center',
-    justifyContent: 'space-between',
+    color: theme.palette.primary[500],
+    fontSize: '1.2em',
     fontWeight: 600,
   },
-  delete: {
+  title: {
+    marginTop: 14,
+    fontSize: 18,
+  },
+  icons: {
     marginRight: '3vw',
   },
   container: {
@@ -54,20 +59,12 @@ const styles = theme => ({
     flexWrap: 'wrap',
     maxWidth: 600,
   },
-  box: {
-    width: 200,
-    display: 'flex',
-    justifyContent: 'space-between',
-    flexWrap: 'wrap',
-    // border: `thin solid ${theme.palette.accent3Color}`,
-  },
-  boxLabel: {
-    color: theme.palette.accent1Color,
-    marginLeft: 10,
-  },
-  boxData: {
-    marginRight: 10,
-  },
+  // box: {
+  //   width: 200,
+  //   display: 'flex',
+  //   justifyContent: 'space-between',
+  //   flexWrap: 'wrap',
+  // },
 });
 
 // const deleteActivityURL = 'apiv1/activities/delete-activity';
@@ -109,18 +106,21 @@ class ActivitySingle extends Component {
 
     return (
       <div key={`${thisActivity.activityId}-single`} className={classes.root} >
-        <div className={classes.title} >
-          <div>
-            <a href={`https://www.strava.com/activities/${thisActivity.activityId}`} target="new">
-              {thisActivity.name}
-            </a>
+        <div className={classes.titleBox} >
+          <div className={classes.title} >
+            {thisActivity.name}
           </div>
-          <div className={classes.delete} >
+          <div className={classes.icons} >
+            <IconButton
+              onClick={() => window.open(`https://www.strava.com/activities/${thisActivity.activityId}`, '_new')}
+            >
+              <Icon svgIcon={OpenInNewIcon} size="sm" pointer />
+            </IconButton>
             <IconButton
               onClick={deleteActivity}
               tooltip="Delete from A Race athlete (does not remove from Strava)"
             >
-              <Icon svgIcon={DeleteForeverIcon} />
+              <Icon svgIcon={DeleteForeverIcon} size="sm" pointer />
             </IconButton>
           </div>
         </div>
@@ -145,7 +145,8 @@ class ActivitySingle extends Component {
               return (
                 <MetricLabel
                   size="lg"
-                  bias="right"
+                  bias="left"
+                  inverse
                   key={rV.activityType}
                   leftContent={rV.activityLabel}
                   rightContent={thisActivity[rV.activityType][rV.activityTypeSub]}

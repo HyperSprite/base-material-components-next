@@ -15,7 +15,7 @@ MapPin example:
     color="primary"
   />
   <MapPin
-    color="accent"
+    color="secondary"
   />
   <MapPin
     color="start"

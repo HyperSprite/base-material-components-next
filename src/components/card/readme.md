@@ -1,5 +1,5 @@
 SimpleCard example:
 
 ```js
-<SimpleCard />
+<CardSimple />
 ```

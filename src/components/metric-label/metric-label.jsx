@@ -46,7 +46,10 @@ const styles = theme => ({
     '&$md': {
       width: 100,
     },
-
+    '&$lg': {
+      width: 'inherit',
+      minWidth: 300,
+    },
     '&$biasLeft': {
       width: '65%',
     },
@@ -67,6 +70,10 @@ const styles = theme => ({
     '&$md': {
       // width: 100,
     },
+    '&$lg': {
+      width: 'inherit',
+      minWidth: 300,
+    },
     '&$biasRight': {
       width: '65%',
     },
@@ -75,10 +82,8 @@ const styles = theme => ({
     },
   },
   inverse: {},
-  md: {
-    // width: 200,
-  },
-
+  md: {},
+  lg: {},
   biasLeft: {},
   biasRight: {},
 });

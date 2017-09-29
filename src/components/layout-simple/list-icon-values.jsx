@@ -40,10 +40,10 @@ export default [
   },
   {
     key: 4,
-    banner: <Icon color="accent" pointer size="md" svgIcon={AutoFixIcon} />,
+    banner: <Icon color="secondary" pointer size="md" svgIcon={AutoFixIcon} />,
     content: (
       <span>
-        {'color="accent"'}<br />
+        {'color="secondary"'}<br />
         {'pointer'}<br />
         {'size="md"'}<br />
         {'svgIcon={ReactIcon}'}
@@ -64,10 +64,10 @@ export default [
   },
   {
     key: 6,
-    banner: <Icon color="accent" inverse size="xl" svgIcon={SpeedometerIcon} />,
+    banner: <Icon color="secondary" inverse size="xl" svgIcon={SpeedometerIcon} />,
     content: (
       <span>
-        {'color="accent"'}<br />
+        {'color="secondary"'}<br />
         {'inverse'}<br />
         {'size="xl"'}<br />
         {'svgIcon={AutoFixIcon}'}
@@ -108,10 +108,10 @@ export default [
   },
   {
     key: 10,
-    banner: <Icon color="accent" pointer size="md" />,
+    banner: <Icon color="secondary" pointer size="md" />,
     content: (
       <span>
-        {'color="accent"'}<br />
+        {'color="secondary"'}<br />
         {'pointer size="md"'}<br />
         {'<no icon>'}
       </span>
@@ -130,10 +130,10 @@ export default [
   },
   {
     key: 12,
-    banner: <Icon color="accent" inverse size="xl" />,
+    banner: <Icon color="secondary" inverse size="xl" />,
     content: (
       <span>
-        {'color="accent"'}<br />
+        {'color="secondary"'}<br />
         {'inverse size="xl"'}<br />
         {'<no icon>'}
       </span>

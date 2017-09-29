@@ -24,7 +24,7 @@ const styles = theme => ({
   primary: {
     color: theme.palette.primary[500],
   },
-  accent: {
+  secondary: {
     color: theme.palette.secondary.A200,
   },
   start: {
@@ -42,7 +42,7 @@ const MapPin = ({ classes, className: classNameProp, color }) => {
     {
       [classes.root]: true,
       [classes.primary]: color === 'primary',
-      [classes.accent]: color === 'accent',
+      [classes.secondary]: color === 'secondary',
       [classes.start]: color === 'start',
       [classes.end]: color === 'end',
     },

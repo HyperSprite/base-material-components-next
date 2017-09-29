@@ -32,15 +32,19 @@ const defaultProps = {
 const styles = theme => ({
   root: {
     margin: 5,
+    width: 240,
     background: theme.palette.background.default,
+    display: 'flex',
+    justifyContent: 'center',
   },
   barChartBox: {
-    width: 240,
+    // display: 'flex',
+    // justifyContent: 'center',
   },
   title: {
     textAlign: 'center',
-    display: 'flex',
-    justifyContent: 'space-around',
+    // display: 'flex',
+    // justifyContent: 'space-around',
   },
   barChart: {
     margin: { top: 5, right: 10, left: 2, bottom: 5 },
@@ -76,7 +80,7 @@ const styles = theme => ({
     fontWeight: 700,
   },
   day: {
-    fill: theme.palette.primary[500],
+    fill: theme.palette.primary[400],
   },
   previous: {
     fill: theme.palette.primary[900],
@@ -120,30 +124,32 @@ const renderTooltipContent = (o) => {
 };
 
 const BarChartBox = ({ classes, content, contentLabel, metric, mPref, title, weeklyTotals }) => (
-  <div className={classes.barChartBox} >
-    <div className={classes.title}>
-      <MetricLabel
-        inverse
-        leftContent={contentLabel}
-        rightContent={lib.statsConversions(metric, false, content, mPref)}
-      />
+  <div>
+    <div className={classes.barChartBox} >
+      <div className={classes.title}>
+        <MetricLabel
+          leftContent={lib.statsConversions(metric, false, content, mPref)}
+          rightContent={contentLabel}
+        />
+      </div>
+      <BarChart
+        className={classes.barChart}
+        width={180}
+        height={150}
+        data={weeklyTotals}
+
+      >
+        <XAxis dataKey="day" />
+        <YAxis tickFormatter={lib.statsConversions(metric, true)} />
+        <CartesianGrid strokeDasharray="3 3" />
+        <Tooltip content={renderTooltipContent} metric={metric} mPref={mPref} classes={classes} />
+        <Bar name="Previous" dataKey={`${metric}.total`} stackId="a" className={classes.previous} barGap={1} isAnimationActive={false} />
+        <Bar name="Day" dataKey={`${metric}.day`} stackId="a" className={classes.day} barGap={1} isAnimationActive={false} />
+
+      </BarChart>
     </div>
-    <BarChart
-      className={classes.barChart}
-      width={180}
-      height={150}
-      data={weeklyTotals}
-
-    >
-      <XAxis dataKey="day" />
-      <YAxis tickFormatter={lib.statsConversions(metric, true)} />
-      <CartesianGrid strokeDasharray="3 3" />
-      <Tooltip content={renderTooltipContent} metric={metric} mPref={mPref} classes={classes} />
-      <Bar name="Previous" dataKey={`${metric}.total`} stackId="a" className={classes.previous} barGap={1} isAnimationActive={false} />
-      <Bar name="Day" dataKey={`${metric}.day`} stackId="a" className={classes.day} barGap={1} isAnimationActive={false} />
-
-    </BarChart>
   </div>
+
 );
 
 BarChartBox.propTypes = propTypes;

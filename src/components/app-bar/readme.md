@@ -1,5 +1,9 @@
 ARAAppBar example:
 
 ```js
-<ARAAppBar />
+<ARAAppBar icon="menu" />
+```
+
+```js
+<ARAAppBar title="A Race athlete blog" />
 ```

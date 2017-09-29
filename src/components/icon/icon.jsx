@@ -8,7 +8,7 @@ import TestIcon from './test-icon';
 
 const propTypes = {
   classes: PropTypes.object.isRequired,
-  /** color=<option> - "primary" for primary palette color, "accent" for secondary color */
+  /** color=<option> - "primary" for primary palette color, "secondary" for secondary color */
   color: PropTypes.string,
   /** inverse - (bool) the icon will swap the colors */
   inverse: PropTypes.bool,
@@ -50,7 +50,7 @@ const styles = theme => ({
       backgroundColor: theme.palette.primary[500],
     },
   },
-  accent: {
+  secondary: {
     fill: theme.palette.secondary.A200,
     backgroundColor: theme.palette.getContrastText(theme.palette.secondary.A200),
     '&$inverse': {
@@ -69,6 +69,7 @@ const styles = theme => ({
   md: {
     height: 48,
     width: 48,
+    borderRadius: 0,
   },
   lg: {
     height: 72,
@@ -91,7 +92,7 @@ const Icon = (props) => {
     {
       [classes.root]: true,
       [classes.primary]: color === 'primary',
-      [classes.accent]: color === 'accent',
+      [classes.secondary]: color === 'secondary',
       [classes.inverse]: inverse,
       [classes.pointer]: pointer,
       [classes.xs]: size === 'xs',

@@ -12,10 +12,25 @@ import Icon from '../icon';
 const propTypes = {
   classes: PropTypes.object.isRequired,
   icon: PropTypes.node,
+  /** A string or function */
+  leftLink: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.func,
+  ]),
+  /** A string or function */
+  rightLink: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.func,
+  ]),
+  /** AppBar title */
+  title: PropTypes.string,
 };
 
 const defaultProps = {
-  icon: <MenuIcon fill="inherit" />,
+  icon: <Icon color="primary" size="md" />,
+  leftLink: '',
+  rightLink: '',
+  title: 'Demo AppBar',
 };
 
 const styles = theme => ({
@@ -33,15 +48,16 @@ const styles = theme => ({
 
 function ARAAppBar(props) {
   const classes = props.classes;
+  const icon = props.icon === 'menu' ? <Icon svgIcon={MenuIcon} color="primary" inverse size="md" /> : props.icon;
   return (
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
           <IconButton className={classes.menuButton} color="contrast" aria-label="Menu">
-            <Icon color="primary" size="md" />
+            {icon}
           </IconButton>
           <Typography type="title" color="inherit" className={classes.flex}>
-            A Race athlete blog
+            {props.title}
           </Typography>
           <Button color="contrast">Login</Button>
         </Toolbar>

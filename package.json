@@ -5,6 +5,7 @@
   "dependencies": {
     "@turf/bbox": "^4.7.3",
     "@turf/helpers": "^4.7.3",
+    "babel-polyfill": "^6.26.0",
     "classnames": "^2.2.5",
     "date-fns": "^1.28.5",
     "google-map-react": "^0.24.0",
@@ -20,12 +21,16 @@
     "react-dom": "^15.6.1",
     "react-icons": "^2.2.5",
     "recharts": "^1.0.0-apha.5",
+    "save-dev": "^2.0.0",
     "typeface-roboto": "0.0.35",
     "warning": "^3.0.0"
   },
   "devDependencies": {
+    "babel-loader": "^7.1.2",
     "react-scripts": "^1.0.13",
-    "react-styleguidist": "^6.0.24"
+    "react-styleguidist": "^6.0.24",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9"
   },
   "scripts": {
     "start": "react-scripts start",

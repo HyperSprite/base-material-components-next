@@ -37,21 +37,20 @@ function CardSimple(props) {
       <Card className={classes.card}>
         <CardContent>
           <Typography type="body1" className={classes.title}>
-            Word of the Day
+            {'Simple Card using <Typography /> type="body1" className={classes.title}'}
           </Typography>
           <Typography type="headline" component="h2">
-            be{bull}nev{bull}o{bull}lent
+            {'This is a type="headline" component="h2" in Typography}'}
           </Typography>
           <Typography type="body1" className={classes.pos}>
-            adjective
+            {bull}{'while this is a type="body1" class="pos"'}
           </Typography>
           <Typography component="p">
-            well meaning and kindly.<br />
-            {'"a benevolent smile"'}
+            {'and this is a lowly component="p"'}
           </Typography>
         </CardContent>
         <CardActions>
-          <Button dense>Learn More</Button>
+          <Button dense>and a button</Button>
         </CardActions>
       </Card>
     </div>
