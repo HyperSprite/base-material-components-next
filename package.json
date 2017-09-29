@@ -1,5 +1,6 @@
 {
   "name": "base-material-components",
+  "homepage": "http://portfolio.hypersprite.com/base-material-components",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -36,8 +37,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "deploy": "npm run build && cp -TRv ./build ../hypersprite.github.io/base-material-components",
     "eject": "react-scripts eject",
     "styleguide": "styleguidist server",
-    "styleguide:build": "styleguidist build"
+    "styleguide:build": "styleguidist build",
+    "styleguide:deploy": "npm run styleguide:build && cp -TRv .styleguide/build ../hypersprite.github.io/base-material-components/styleguide"
   }
 }
