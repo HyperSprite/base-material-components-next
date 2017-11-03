@@ -123,7 +123,7 @@ const renderTooltipContent = (o) => {
   );
 };
 
-const BarChartBox = ({ classes, content, contentLabel, metric, mPref, title, weeklyTotals }) => (
+const ExtBarChartBox = ({ classes, content, contentLabel, metric, mPref, title, weeklyTotals }) => (
   <div>
     <div className={classes.barChartBox} >
       <div className={classes.title}>
@@ -152,7 +152,7 @@ const BarChartBox = ({ classes, content, contentLabel, metric, mPref, title, wee
 
 );
 
-BarChartBox.propTypes = propTypes;
-BarChartBox.defaultProps = defaultProps;
+ExtBarChartBox.propTypes = propTypes;
+ExtBarChartBox.defaultProps = defaultProps;
 
-export default withStyles(styles, { name: 'StyledChart' })(BarChartBox);
+export default withStyles(styles, { name: 'StyledChart' })(ExtBarChartBox);

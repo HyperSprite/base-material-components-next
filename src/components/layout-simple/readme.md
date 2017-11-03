@@ -1,5 +1,5 @@
-LayoutSimple example:
+ExtLayoutSimple example:
 
 ```js
-<LayoutSimple />
+<ExtLayoutSimple />
 ```

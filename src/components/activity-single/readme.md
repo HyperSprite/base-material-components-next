@@ -1,8 +1,8 @@
-SingleActivity example:
+ExtActivitySingle example:
 
 
 ```js
-<ActivitySingle />
+<ExtActivitySingle />
 ```
 
 This component is still in active development.

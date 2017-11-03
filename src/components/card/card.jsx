@@ -28,7 +28,7 @@ const styles = theme => ({
   },
 });
 
-function CardSimple(props) {
+function ExtCardSimple(props) {
   const classes = props.classes;
   const bull = <span className={classes.bullet}>•</span>;
 
@@ -57,8 +57,8 @@ function CardSimple(props) {
   );
 }
 
-CardSimple.propTypes = {
+ExtCardSimple.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(CardSimple);
+export default withStyles(styles)(ExtCardSimple);

@@ -24,20 +24,14 @@ const defaultProps = {
   txtColor: '#B71C1C',
 };
 
-const DivSimpleText = ({ text, width, height, bcColor, txtColor }) => (
+const ExtDivSimpleText = ({ text, width, height, bcColor, txtColor }) => (
   <div
     style={{ width, height, backgroundColor: bcColor, color: txtColor }}
   >
     {text}
   </div>);
 
-DivSimpleText.propTypes = propTypes;
-DivSimpleText.defaultProps = defaultProps;
+ExtDivSimpleText.propTypes = propTypes;
+ExtDivSimpleText.defaultProps = defaultProps;
 
-export default DivSimpleText;
-
-// text="test"
-// width={200}
-// height={100}
-// bcColor="#FAFAFA"
-// txtColor="#B71C1C"
+export default ExtDivSimpleText;

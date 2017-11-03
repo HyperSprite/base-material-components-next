@@ -1,14 +1,14 @@
-Geolocation example:
+ExtGeolocation example:
 
 **Imports**
 > None
 
 ```js
-<Geolocation />
+<ExtGeolocation />
 ```
 
 ```js
-<Geolocation
+<ExtGeolocation
   lat={39.28756}
   lng={120.19987}
 />

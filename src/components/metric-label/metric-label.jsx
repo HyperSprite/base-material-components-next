@@ -4,11 +4,27 @@ import classNames from 'classnames';
 import { withStyles } from 'material-ui/styles';
 
 const propTypes = {
-  bias: PropTypes.string,
+  /**
+  * Offests info left or right
+  */
+  bias: PropTypes.oneOf(['left', 'right']),
+  /**
+  * Sets bold to right
+  */
   inverse: PropTypes.bool,
+  /**
+  * content to be displayed on left side
+  */
   leftContent: PropTypes.any,
+  /**
+  * content to be displayed on right side
+  */
   rightContent: PropTypes.any,
-  size: PropTypes.string,
+  /**
+  * 'md' sets minWidth to 100
+  * 'lg' sets minWidth to 300
+  */
+  size: PropTypes.oneOf(['md', 'lg']),
 };
 
 const defaultProps = {
@@ -88,7 +104,7 @@ const styles = theme => ({
   biasRight: {},
 });
 
-const MetricLabel = ({ bias, classes, className: classNameProp, leftContent, inverse, rightContent, size }) => {
+const ExtMetricLabel = ({ bias, classes, className: classNameProp, leftContent, inverse, rightContent, size }) => {
   const className = classNames(
     {
       [classes.root]: true,
@@ -112,7 +128,7 @@ const MetricLabel = ({ bias, classes, className: classNameProp, leftContent, inv
   );
 };
 
-MetricLabel.propTypes = propTypes;
-MetricLabel.defaultProps = defaultProps;
+ExtMetricLabel.propTypes = propTypes;
+ExtMetricLabel.defaultProps = defaultProps;
 
-export default withStyles(styles, { name: 'StyledMetricLabel' })(MetricLabel);
+export default withStyles(styles, { name: 'StyledExtMetricLabel' })(ExtMetricLabel);

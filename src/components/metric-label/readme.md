@@ -1,14 +1,14 @@
-MetricLabel example:
+ExtMetricLabel example:
 
 ```js
-<MetricLabel
+<ExtMetricLabel
   leftContent={542}
   rightContent="Power"
 />
 ```
 
 ```js
-<MetricLabel
+<ExtMetricLabel
   inverse
   leftContent="Elevation"
   rightContent={3524}

@@ -7,11 +7,7 @@ import FaMapPin from 'react-icons/lib/fa/map-pin';
 const propTypes = {
   classes: PropTypes.object.isRequired,
   /** Color for pin */
-  // color: PropTypes.string,
-};
-
-const defaultProps = {
-  // color: theme.textBoldColor,
+  color: PropTypes.oneOf(['primary', 'secondary', 'start', 'end']),
 };
 
 const styles = theme => ({
@@ -35,9 +31,7 @@ const styles = theme => ({
   },
 });
 
-
-
-const MapPin = ({ classes, className: classNameProp, color }) => {
+const ExtMapPin = ({ classes, className: classNameProp, color }) => {
   const className = classNames(
     {
       [classes.root]: true,
@@ -56,7 +50,6 @@ const MapPin = ({ classes, className: classNameProp, color }) => {
   );
 };
 
-MapPin.propTypes = propTypes;
-MapPin.defaultProps = defaultProps;
+ExtMapPin.propTypes = propTypes;
 
-export default withStyles(styles, { name: 'StyledMapPin' })(MapPin);
+export default withStyles(styles, { name: 'StyledExtMapPin' })(ExtMapPin);

@@ -11,7 +11,7 @@ import MapPin from '../map-pin';
 import ViewRouteMapPolylineDraw from './google-map-polyline-draw';
 import googleMapStyles from './map-styles';
 
-class GoogleMapWithPolyline extends React.Component {
+class ExtGoogleMapWithPolyline extends React.Component {
 
   static propTypes = {
     containerWidth: PropTypes.number,
@@ -123,4 +123,4 @@ class GoogleMapWithPolyline extends React.Component {
   }
 }
 
-export default Dimensions()(GoogleMapWithPolyline);
+export default Dimensions()(ExtGoogleMapWithPolyline);

@@ -85,7 +85,7 @@ const styles = theme => ({
   },
 });
 
-const Icon = (props) => {
+const ExtIcon = (props) => {
   const { classes, color, className: classNameProp, inverse, pointer, size, svgIcon } = props;
 
   const className = classNames(
@@ -112,8 +112,8 @@ const Icon = (props) => {
   );
 };
 
-Icon.propTypes = propTypes;
-Icon.defaultProps = defaultProps;
+ExtIcon.propTypes = propTypes;
+ExtIcon.defaultProps = defaultProps;
 
 
-export default withStyles(styles, { name: 'StyledIcon' })(Icon);
+export default withStyles(styles, { name: 'StyledExtIcon' })(ExtIcon);

@@ -41,7 +41,7 @@ const styles = theme => ({
   },
 });
 
-function LayoutSimple(props) {
+function ExtLayoutSimple(props) {
   const classes = props.classes;
 
   return (
@@ -70,6 +70,6 @@ function LayoutSimple(props) {
   );
 }
 
-LayoutSimple.propTypes = propTypes;
+ExtLayoutSimple.propTypes = propTypes;
 
-export default withStyles(styles)(LayoutSimple);
+export default withStyles(styles, { name: 'StyledExtLayoutSimple' })(ExtLayoutSimple);

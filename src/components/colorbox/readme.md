@@ -1,4 +1,4 @@
-ColorBox example:
+ExtColorBox example:
 
 **Imports**
 
@@ -9,7 +9,7 @@ ColorBox example:
 > import Card, { CardContent } from 'material-ui/Card';
 
 ```js
-<ColorBox name="Red" />
+<ExtColorBox name="Red" />
 ```
 
-Used for displaying a pallet object as color cards. 
+Used for displaying a pallet object as color cards.

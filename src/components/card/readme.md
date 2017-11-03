@@ -1,5 +1,5 @@
-SimpleCard example:
+ExtCardSimple example:
 
 ```js
-<CardSimple />
+<ExtCardSimple />
 ```

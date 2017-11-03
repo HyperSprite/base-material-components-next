@@ -1,7 +1,7 @@
-DivSimpleText example:
+ExtDivSimpleText example:
 
 ```js
-<DivSimpleText
+<ExtDivSimpleText
   text={`Simple Text Div`}
   width={300}
   height={150}

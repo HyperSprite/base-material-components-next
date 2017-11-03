@@ -1,4 +1,4 @@
-MapPin example:
+ExtMapPin example:
 
 **Imports**
 
@@ -8,19 +8,19 @@ MapPin example:
 
 ```js
 <div>
-  <MapPin />
-  <MapPin
+  <ExtMapPin />
+  <ExtMapPin
     lat={39.28756}
     lng={120.19987}
     color="primary"
   />
-  <MapPin
+  <ExtMapPin
     color="secondary"
   />
-  <MapPin
+  <ExtMapPin
     color="start"
   />
-  <MapPin
+  <ExtMapPin
     color="end"
   />
 </div>

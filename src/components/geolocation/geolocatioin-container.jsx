@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Geolocation from './geolocation';
+import ExtGeolocation from './geolocation';
 
-class GeolocationContainer extends React.Component {
+class ExtGeolocationContainer extends React.Component {
   constructor(props) {
     super(props);
 
@@ -29,9 +29,9 @@ class GeolocationContainer extends React.Component {
 
   render() {
     return (
-      <Geolocation {...this.state} />
+      <ExtGeolocation {...this.state} />
     );
   }
 }
 
-export default GeolocationContainer;
+export default ExtGeolocationContainer;

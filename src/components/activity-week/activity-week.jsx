@@ -20,11 +20,11 @@ const defaultProps = {
   measurementPref: false,
 };
 
-const ActivityWeek = () => {
+const ExtActivityWeek = () => {
 
 };
 
-ActivityWeek.propTypes = propTypes;
-ActivityWeek.defaultProps = defaultProps;
+ExtActivityWeek.propTypes = propTypes;
+ExtActivityWeek.defaultProps = defaultProps;
 
-export default ActivityWeek;
+export default ExtActivityWeek;

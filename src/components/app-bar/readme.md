@@ -1,9 +1,21 @@
-ARAAppBar example:
+ExtAppBar example:
 
 ```js
-<ARAAppBar icon="menu" />
+<ExtAppBar leftIcon="menu" />
 ```
 
 ```js
-<ARAAppBar title="A Race athlete blog" />
+<ExtAppBar
+  title="A Race athlete blog"
+  rightOnClick={() => window.location.assign('https://google.com')}
+  rightText="Connect with Google"
+/>
+```
+
+```js
+<ExtAppBar
+  rightImgSrc="btn_strava_connectwith_light.svg"
+  rightOnClick={() => window.location.assign('https://google.com')}
+  rightText="Connect with Strava"
+/>
 ```

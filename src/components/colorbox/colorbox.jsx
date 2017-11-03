@@ -59,7 +59,7 @@ const styles = theme => ({
 });
 
 
-const ColorBox = ({ name, palette, classes }) => (
+const ExtColorBox = ({ name, palette, classes }) => (
   <div>
     <h3 className={classes.title}>{name}</h3>
     {/* <div style={{ display: 'flex', flexWrap: 'wrap' }}> */}
@@ -95,7 +95,7 @@ const ColorBox = ({ name, palette, classes }) => (
   </div>
 );
 
-ColorBox.propTypes = propTypes;
-ColorBox.defaultProps = defaultProps;
+ExtColorBox.propTypes = propTypes;
+ExtColorBox.defaultProps = defaultProps;
 
-export default withStyles(styles)(ColorBox);
+export default withStyles(styles)(ExtColorBox);

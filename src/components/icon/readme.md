@@ -1,4 +1,4 @@
-Icon example:
+ExtIcon example:
 
 **Imports**
 
@@ -11,11 +11,11 @@ Icon example:
 > import <IconName>Icon from 'mdi-react/<IconName>Icon';
 
 ```js
-<Icon />
+<ExtIcon />
 ```
 
 ```js
-<Icon color="primary" inverse size="lg" />
+<ExtIcon color="primary" inverse size="lg" />
 ```
 
 Get Icons from [materialdesignicons.com](https://materialdesignicons.com)

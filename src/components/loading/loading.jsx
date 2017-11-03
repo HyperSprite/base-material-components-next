@@ -20,7 +20,7 @@ const styles = theme => ({
   },
 });
 
-function Loading(props) {
+function ExtLoading(props) {
   const { classes } = props;
   return (
     <div className={classes.root} >
@@ -29,7 +29,7 @@ function Loading(props) {
   );
 }
 
-Loading.propTypes = propTypes;
-Loading.defaultProps = defaultProps;
+ExtLoading.propTypes = propTypes;
+ExtLoading.defaultProps = defaultProps;
 
-export default withStyles(styles)(Loading);
+export default withStyles(styles, { name: 'StyledExtLoading' })(ExtLoading);

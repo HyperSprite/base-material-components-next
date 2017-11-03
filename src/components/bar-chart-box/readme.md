@@ -1,4 +1,4 @@
-Chart example:
+ExtBarChartBox example:
 
 **Imports**
 
@@ -6,7 +6,7 @@ Chart example:
 
 
 ```js
-<BarChartBox />
+<ExtBarChartBox />
 ```
 
 This is used in Weekly Activity Stats. It is a highly customized visualization

@@ -1,9 +1,9 @@
-Loading example:
+ExtLoading example:
 
 ```js
-<Loading />
+<ExtLoading />
 ```
 
 ```js
-<button style={{ width: 100 }} ><Loading /></button>
+<button style={{ width: 100 }} ><ExtLoading /></button>
 ```

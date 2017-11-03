@@ -13,14 +13,14 @@ const defaultProps = {
   lng: null,
 };
 
-const Geolocation = ({ lat, lng }) => (
+const ExtGeolocation = ({ lat, lng }) => (
   <div>
     <div>Latitude: {lat}</div>
     <div>Longitude: {lng}</div>
   </div>
 );
 
-Geolocation.propTypes = propTypes;
-Geolocation.defaultProps = defaultProps;
+ExtGeolocation.propTypes = propTypes;
+ExtGeolocation.defaultProps = defaultProps;
 
-export default Geolocation;
+export default ExtGeolocation;

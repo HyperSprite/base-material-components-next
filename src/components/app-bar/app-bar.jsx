@@ -7,30 +7,43 @@ import Typography from 'material-ui/Typography';
 import Button from 'material-ui/Button';
 import IconButton from 'material-ui/IconButton';
 import MenuIcon from 'mdi-react/MenuIcon';
+
 import Icon from '../icon';
 
 const propTypes = {
   classes: PropTypes.object.isRequired,
-  icon: PropTypes.node,
-  /** A string or function */
-  leftLink: PropTypes.oneOfType([
-    PropTypes.string,
-    PropTypes.func,
-  ]),
-  /** A string or function */
-  rightLink: PropTypes.oneOfType([
-    PropTypes.string,
-    PropTypes.func,
-  ]),
+  /**
+  * Icon (see mdi-react)
+  */
+  leftIcon: PropTypes.node,
+  /**
+  * () => window.location.assign('/auth/strava')
+  */
+  leftOnClick: PropTypes.func,
+  /**
+  * rightImgSrc ? RightButton === image : RightButton === text
+  * e.g http://someimage.png or import
+  */
+  rightImgSrc: PropTypes.string,
+  /**
+  * e.g. () => window.location.assign('/auth/strava')
+  */
+  rightOnClick: PropTypes.func,
+  /**
+  * Will be used as button text or image alt text
+  * e.g. 'Login with Strava'
+  */
+  rightText: PropTypes.string,
   /** AppBar title */
   title: PropTypes.string,
 };
 
 const defaultProps = {
-  icon: <Icon color="primary" size="md" />,
-  leftLink: '',
-  rightLink: '',
-  title: 'Demo AppBar',
+  leftIcon: <Icon color="primary" size="md" />,
+  rightImgSrc: null,
+  rightOnClick: null,
+  rightText: '',
+  title: '',
 };
 
 const styles = theme => ({
@@ -46,28 +59,42 @@ const styles = theme => ({
   },
 });
 
-function ARAAppBar(props) {
-  const classes = props.classes;
-  const icon = props.icon === 'menu' ? <Icon svgIcon={MenuIcon} color="primary" inverse size="md" /> : props.icon;
+function ExtAppBar(props) {
+  const { classes, leftIcon, leftOnClick, rightImgSrc, rightOnClick, rightText } = props;
+  const LeftIcon = leftIcon === 'menu' ? <Icon svgIcon={MenuIcon} color="primary" inverse size="md" /> : leftIcon;
+
+  const RightButton = () => (
+    <Button
+      color="contrast"
+      onClick={rightOnClick}
+    >
+      {rightImgSrc ? (
+        <img src={rightImgSrc} alt={rightText} />
+      ) : (
+        <span>{rightText}</span>
+      )}
+    </Button>
+  );
+
   return (
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
-          <IconButton className={classes.menuButton} color="contrast" aria-label="Menu">
-            {icon}
+          <IconButton onClick={leftOnClick} className={classes.menuButton} color="contrast" aria-label="Menu">
+            {LeftIcon}
           </IconButton>
           <Typography type="title" color="inherit" className={classes.flex}>
             {props.title}
           </Typography>
-          <Button color="contrast">Login</Button>
+          {rightText && <RightButton />}
         </Toolbar>
       </AppBar>
     </div>
   );
 }
 
-ARAAppBar.propTypes = propTypes;
+ExtAppBar.propTypes = propTypes;
 
-ARAAppBar.defaultProps = defaultProps;
+ExtAppBar.defaultProps = defaultProps;
 
-export default withStyles(styles, { name: 'MuiAppBar' })(ARAAppBar);
+export default withStyles(styles, { name: 'StyledAppBar' })(ExtAppBar);

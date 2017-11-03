@@ -8,11 +8,14 @@ import AppBar from './components/app-bar';
 import BarChartBox from './components/bar-chart-box';
 import Card from './components/card';
 import ColorBox from './components/colorbox';
+import Footer from './components/footer';
 import Geolocation from './components/geolocation';
 import GoogleMap from './components/google-map';
+import Hero from './components/hero';
 import LayoutSimple from './components/layout-simple';
 import Loading from './components/loading';
 
+import PoweredByStrava from './assets/api_logo_pwrdBy_strava_horiz_gray.svg';
 import routeData from './components/__test__/data-apiv1-strava-routes-id.json';
 import oldTheme from './styles/theme';
 import palette from './styles/mui-theme';
@@ -23,6 +26,9 @@ const theme = createMuiTheme({
   typography: typography,
 });
 
+const lrgImage = 'https://github.com/HyperSprite/redux-todo-with-auth/raw/master/web/src/server/public/images/background-large.jpg';
+const smlImage = 'https://github.com/HyperSprite/redux-todo-with-auth/raw/master/web/src/server/public/images/background-small.jpg';
+
 class App extends Component {
   render() {
     return (
@@ -30,6 +36,7 @@ class App extends Component {
         <Typography component="body1" >
           <div className="App" >
             <AppBar rightLink="" leftLink="" title="Demo AppBar" /> {/* icon={<ARAIcon color="primary" inverse size="md" />} */}
+            <Hero backgroundImageWide={lrgImage} backgroundImageNarrow={smlImage} />
             <GoogleMap
               mapPolyline={routeData.map.polyline}
             />
@@ -51,9 +58,16 @@ class App extends Component {
               <ColorBox palette={theme.palette.error} name="styles/muiTheme.palette.error" />
               <ColorBox palette={oldTheme.palette} name="styles/theme.palette" />
               <Card />
-              <Loading />
+              {/* <Loading /> */}
               {/* <Geolocation /> */}
             </Paper>
+            <Footer
+              brand="rcrsv.com"
+              imgAlt="Powered By Strava"
+              imgLink="https://www.strava.com"
+              imgSrc={PoweredByStrava}
+              info="This app came about because I wanted to use it. It is a labor of love and suffering, much like cycling."
+            />
           </div>
         </Typography>
       </MuiThemeProvider>

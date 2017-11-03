@@ -69,7 +69,7 @@ const styles = theme => ({
 
 // const deleteActivityURL = 'apiv1/activities/delete-activity';
 
-class ActivitySingle extends Component {
+class ExtActivitySingle extends Component {
   constructor(props) {
     super(props);
     // this.deleteActivity = this.deleteActivity.bind(this);
@@ -170,8 +170,8 @@ class ActivitySingle extends Component {
   }
 }
 
-ActivitySingle.propTypes = propTypes;
-ActivitySingle.defaultProps = defaultProps;
+ExtActivitySingle.propTypes = propTypes;
+ExtActivitySingle.defaultProps = defaultProps;
 
 // function mapStateToProps(state) {
 //   return {
@@ -180,4 +180,4 @@ ActivitySingle.defaultProps = defaultProps;
 //   };
 // }
 
-export default withStyles(styles, { name: 'StyledSingleActivity' })(ActivitySingle);
+export default withStyles(styles, { name: 'StyledSingleActivity' })(ExtActivitySingle);
