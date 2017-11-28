@@ -11,6 +11,12 @@ const styles = theme => ({
   card: {
     minWidth: 275,
     maxWidth: 650,
+    '&:hover': {
+      marginTop: 16,
+      marginBottom: 4,
+      boxShadow: theme.shadows[6],
+      // cursor: 'pointer',
+    },
   },
   bullet: {
     display: 'inline-block',

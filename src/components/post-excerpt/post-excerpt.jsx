@@ -1,9 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Link from 'gatsby-link';
+// import Link from 'gatsby-link';
 import { withStyles } from 'material-ui/styles';
 import Paper from 'material-ui/Paper';
 import Typography from 'material-ui/Typography';
+
+const Link = e => (e);
 
 const propTypes = {
 

@@ -18,8 +18,10 @@ import Loading from './components/loading';
 import PoweredByStrava from './assets/api_logo_pwrdBy_strava_horiz_gray.svg';
 import routeData from './components/__test__/data-apiv1-strava-routes-id.json';
 import oldTheme from './styles/theme';
-import palette from './styles/mui-theme';
+import palette from './styles/mui-palette';
 import typography from './styles/mui-typography';
+import solarized from './styles/solarized';
+import deepRed from './styles/deep-red';
 
 const theme = createMuiTheme({
   palette: palette,
@@ -57,6 +59,8 @@ class App extends Component {
               <ColorBox palette={theme.palette.grey} name="styles/muiTheme.palette.grey" />
               <ColorBox palette={theme.palette.error} name="styles/muiTheme.palette.error" />
               <ColorBox palette={oldTheme.palette} name="styles/theme.palette" />
+              <ColorBox palette={solarized.palette} name="styles/solarized.palette" />
+              <ColorBox palette={deepRed.palette} name="styles/deep-red.palette" />
               <Card />
               {/* <Loading /> */}
               {/* <Geolocation /> */}

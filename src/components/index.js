@@ -17,6 +17,9 @@ import ExtMapPin from './map-pin';
 import ExtMetricLabel from './metric-label';
 import ExtPostExcept from './post-excerpt';
 import ExtPostFull from './post-full';
+import ExtTagArray from './tag-array';
+import ExtTagBar from './tag-bar';
+import ExtTagSingle from './tag-single';
 
 export default {
   ExtActivitySingle,
@@ -38,4 +41,7 @@ export default {
   ExtMetricLabel,
   ExtPostExcept,
   ExtPostFull,
+  ExtTagArray,
+  ExtTagBar,
+  ExtTagSingle,
 };
