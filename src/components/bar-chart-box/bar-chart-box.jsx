@@ -2,10 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from 'material-ui/styles';
 import { Bar, BarChart, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
+import justFns from 'just-fns';
 
 import MetricLabel from '../metric-label';
 import data from '../__test__/data-apiv1-activities-1-week.json';
-import lib from '../../lib';
+
 // import Static from '../form/static';
 
 const propTypes = {
@@ -107,14 +108,14 @@ const renderTooltipContent = (o) => {
             key={`item-${entry.value + entry.name}`}
           >
             <MetricLabel
-              leftContent={lib.statsConversions(metric, false, entry.value, mPref)}
+              leftContent={justFns.statsConversions(metric, false, entry.value, mPref)}
               rightContent={entry.name}
             />
           </li>
         ))}
         <li>
           <MetricLabel
-            leftContent={lib.statsConversions(metric, false, total, mPref)}
+            leftContent={justFns.statsConversions(metric, false, total, mPref)}
             rightContent={'Total'}
           />
         </li>
@@ -128,7 +129,7 @@ const ExtBarChartBox = ({ classes, content, contentLabel, metric, mPref, title, 
     <div className={classes.barChartBox} >
       <div className={classes.title}>
         <MetricLabel
-          leftContent={lib.statsConversions(metric, false, content, mPref)}
+          leftContent={justFns.statsConversions(metric, false, content, mPref)}
           rightContent={contentLabel}
         />
       </div>
@@ -140,7 +141,7 @@ const ExtBarChartBox = ({ classes, content, contentLabel, metric, mPref, title, 
 
       >
         <XAxis dataKey="day" />
-        <YAxis tickFormatter={lib.statsConversions(metric, true)} />
+        <YAxis tickFormatter={justFns.statsConversions(metric, true)} />
         <CartesianGrid strokeDasharray="3 3" />
         <Tooltip content={renderTooltipContent} metric={metric} mPref={mPref} classes={classes} />
         <Bar name="Previous" dataKey={`${metric}.total`} stackId="a" className={classes.previous} barGap={1} isAnimationActive={false} />

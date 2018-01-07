@@ -1,4 +1,4 @@
-import lib from '../../lib';
+import justFns from 'just-fns';
 
 // this array will be mapped to display each metric for an activity.
 const returnValues = [
@@ -7,12 +7,23 @@ const returnValues = [
     activityLabel: 'TSS',
   },
   {
+    activityType: 'variability_index',
+    activityLabel: 'Variability Index',
+    division: justFns.divideAndRound,
+    divideThis: 'weighted_average_watts',
+    byThis: 'average_watts',
+  },
+  {
     activityType: 'kilojoules',
     activityLabel: 'Kilojoules',
   },
   {
     activityType: 'weighted_average_watts',
     activityLabel: 'Nomalized Power',
+  },
+  {
+    activityType: 'average_watts',
+    activityLabel: 'Average Power',
   },
   {
     activityType: 'suffer_score',
@@ -25,7 +36,7 @@ const returnValues = [
   {
     activityType: 'moving_time',
     activityLabel: 'Moving Time',
-    conversionFunction: lib.statsConversions,
+    conversionFunction: justFns.statsConversions,
     conversionMetric: 'time',
     conversionYAxis: false,
     conversionData: 'moving_time',
@@ -33,7 +44,7 @@ const returnValues = [
   {
     activityType: 'distance',
     activityLabel: 'Distance',
-    conversionFunction: lib.statsConversions,
+    conversionFunction: justFns.statsConversions,
     conversionMetric: 'dst',
     conversionYAxis: false,
     conversionData: 'distance',
@@ -44,7 +55,7 @@ const returnValues = [
   {
     activityType: 'total_elevation_gain',
     activityLabel: 'Elevation',
-    conversionFunction: lib.statsConversions,
+    conversionFunction: justFns.statsConversions,
     conversionMetric: 'elev',
     conversionYAxis: false,
     conversionData: 'total_elevation_gain',

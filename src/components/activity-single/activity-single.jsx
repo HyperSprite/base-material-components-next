@@ -152,6 +152,15 @@ class ExtActivitySingle extends Component {
                   rightContent={thisActivity[rV.activityType][rV.activityTypeSub]}
                 />
               );
+            } else if (rV.division) {
+              return (
+                <MetricLabel
+                  size="md"
+                  key={rV.activityType}
+                  leftContent={rV.division(thisActivity[rV.divideThis], thisActivity[rV.byThis], 2)}
+                  rightContent={rV.activityLabel}
+                />
+              );
             } else if (thisActivity[rV.activityType]) {
               return (
                 <MetricLabel
