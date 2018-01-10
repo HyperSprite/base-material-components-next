@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles';
+import Reboot from 'material-ui/Reboot';
 import Paper from 'material-ui/Paper';
 import Typography from 'material-ui/Typography';
 
@@ -37,20 +38,15 @@ class App extends Component {
       <MuiThemeProvider theme={theme} >
         <Typography component="body1" >
           <div className="App" >
+            <Reboot />
             <AppBar rightLink="" leftLink="" title="Demo AppBar" /> {/* icon={<ARAIcon color="primary" inverse size="md" />} */}
             <Hero backgroundImageWide={lrgImage} backgroundImageNarrow={smlImage} />
             <GoogleMap
               mapPolyline={routeData.map.polyline}
             />
             <Paper style={{ backgroundColor: '#eeeeee' }} >
-              <div style={{ display: 'flex', flexFlow: 'column wrap', padding: 5 }} >
-                <div style={{ display: 'flex', justifyContent: 'center', padding: 5 }} >
-                  <ActivitySingle />
-                </div>
-                <div style={{ display: 'flex', justifyContent: 'center', padding: 5 }} >
-                  <BarChartBox />
-                </div>
-              </div>
+              <ActivitySingle />
+              <BarChartBox />
               <LayoutSimple />
               <ColorBox palette={theme.palette.primary} name="styles/muiTheme.palette.primary" />
               <ColorBox palette={theme.palette.secondary} name="styles/muiTheme.palette.secondary" />

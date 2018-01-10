@@ -64,7 +64,7 @@ const ExtColorBox = ({ name, palette, classes }) => (
     <h3 className={classes.title}>{name}</h3>
     {/* <div style={{ display: 'flex', flexWrap: 'wrap' }}> */}
     <div className={classes.root}>
-      <Grid container spacing={24}>
+      <Grid container spacing={0}>
         <Grid item xs />
         <Grid item xs={9}>
           <Paper className={classes.paper}>

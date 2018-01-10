@@ -38,20 +38,23 @@ const defaultProps = {
 const styles = theme => ({
   root: {
     flexGrow: 1,
-    marginTop: 20,
+    margin: '15px 5px 5px 5px',
+    overflow: 'hidden',
   },
   titleBox: {
     display: 'flex',
     color: theme.palette.primary[500],
     fontSize: '1.2em',
     fontWeight: 600,
+    width: '100%',
+    flexWrap: 'wrap',
   },
   title: {
     marginTop: 14,
     fontSize: 18,
   },
   icons: {
-    marginRight: '3vw',
+    // marginRight: '3vw',
   },
   container: {
     display: 'flex',
@@ -86,23 +89,6 @@ class ExtActivitySingle extends Component {
 
   render() {
     const { classes, mPref, deleteActivity, thisActivity } = this.props;
-    // const activity = thisActivity()[0];
-
-    // if (thisActivity.deleted) {
-    //   return (
-    //     <h4 style={style.h4}>{thisActivity.name}</h4>
-    //   );
-    // }
-
-    // {rV.conversionmPref ? (
-    //   <span>
-    //     {mPref ? (
-    //       <span> {`(${rV.conversionTypeSA})`}</span>
-    //     ) : (
-    //       <span> {`(${rV.conversionTypeMetric})`}</span>
-    //     )}
-    //   </span>
-    // ) : (null)}
 
     return (
       <div key={`${thisActivity.activityId}-single`} className={classes.root} >

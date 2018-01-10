@@ -10,6 +10,7 @@ import MapPin from '../map-pin';
 
 import ViewRouteMapPolylineDraw from './google-map-polyline-draw';
 import googleMapStyles from './map-styles';
+import Vignette from '../vignette';
 
 class ExtGoogleMapWithPolyline extends React.Component {
 
@@ -104,6 +105,7 @@ class ExtGoogleMapWithPolyline extends React.Component {
                 color="end"
               />
             }
+            <Vignette width={this.props.containerWidth} height={400} />
           </GoogleMapReact>
         ) : (
           <div style={{ width: 200, height: 400 }} >
