@@ -44,6 +44,7 @@
     "eject": "react-scripts eject",
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build",
-    "styleguide:deploy": "npm run styleguide:build && cp -TRv ./styleguide ../hypersprite.github.io/base-material-components-styleguide"
+    "styleguide:deploy": "npm run styleguide:build && cp -TRv ./styleguide ../hypersprite.github.io/base-material-components-styleguide",
+    "deploy:all": "npm run styleguide:deploy && npm run deploy"
   }
 }

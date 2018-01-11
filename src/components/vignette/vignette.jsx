@@ -10,7 +10,7 @@ const Vignette = ({ height, width }) => (
   <div
     style={{
       position: 'absolute',
-      boxShadow: 'inset 0px 0px 64px #000000',
+      background: 'radial-gradient( circle, transparent 70%, #020202 160%)',
       top: 0,
       left: 0,
       width,

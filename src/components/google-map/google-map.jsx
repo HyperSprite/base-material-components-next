@@ -105,7 +105,12 @@ class ExtGoogleMapWithPolyline extends React.Component {
                 color="end"
               />
             }
-            <Vignette width={this.props.containerWidth} height={400} />
+            { this.state.mapLoaded && (
+              <Vignette
+                width={this.props.containerWidth}
+                height={400}
+              />)
+            }
           </GoogleMapReact>
         ) : (
           <div style={{ width: 200, height: 400 }} >
