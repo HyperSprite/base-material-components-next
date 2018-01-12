@@ -5,5 +5,5 @@ TagArray example:
 ```
 
 ```
-<TagArray tags={'new,friends,eat,cookies'} navClick />
+<TagArray tags={'new, friends, eat, cookies'} navClick />
 ```

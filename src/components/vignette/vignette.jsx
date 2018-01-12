@@ -2,8 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const propTypes = {
-  height: PropTypes.number.isRequired,
-  width: PropTypes.number.isRequired,
+  /** Pixels in height */
+  height: PropTypes.number,
+  /** Pixels in width */
+  width: PropTypes.number,
+};
+
+const defaultProps = {
+  height: 100,
+  width: 200,
 };
 
 const Vignette = ({ height, width }) => (
@@ -20,5 +27,6 @@ const Vignette = ({ height, width }) => (
 );
 
 Vignette.propTypes = propTypes;
+Vignette.defaultProps = defaultProps;
 
 export default Vignette;

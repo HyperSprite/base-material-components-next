@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 // import { navigateTo } from 'gatsby-link';
 import { withStyles } from 'material-ui/styles';
+import justFns from 'just-fns';
 
 import Chip from 'material-ui/Chip';
 
@@ -11,7 +12,7 @@ const propTypes = {
   classes: PropTypes.object.isRequired,
   /** True enables onClick for Chip */
   navClick: PropTypes.bool,
-  /** ['cookie', 'milk'] or 'cookie,milk' */
+  /** ['cookie', 'milk'] or 'cookie, milk' */
   tags: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.array,
@@ -45,7 +46,7 @@ const TagArray = (props) => {
 
   let tagArr = tags;
   if (typeof tags === 'string') {
-    tagArr = tags.split(',');
+    tagArr = justFns.csvStringToArray(tags);
   }
 
   return (
