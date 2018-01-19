@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import ExtGeolocation from './geolocation-container';
+
 const propTypes = {
   /** Latitude number */
   lat: PropTypes.number,
@@ -13,14 +15,14 @@ const defaultProps = {
   lng: null,
 };
 
-const ExtGeolocation = ({ lat, lng }) => (
+const Geolocation = ({ lat, lng }) => (
   <div>
     <div>Latitude: {lat}</div>
     <div>Longitude: {lng}</div>
   </div>
 );
 
-ExtGeolocation.propTypes = propTypes;
-ExtGeolocation.defaultProps = defaultProps;
+Geolocation.propTypes = propTypes;
+Geolocation.defaultProps = defaultProps;
 
-export default ExtGeolocation;
+export default ExtGeolocation(Geolocation);
