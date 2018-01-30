@@ -1,19 +1,22 @@
 ExtGeolocation example:
 
-Disabled so it does not ask for permission to get location for styleguide visitors.
+noGeolocation set so not location is requested for styleguide visitors.
 
 **Imports**
 > None
 
 ```js
-// <Geolocation />
+<Geolocation
+  noGeolocation
+/>
 ```
 
 ```js
-// <Geolocation
-//   lat={39.28756}
-//   lng={120.19987}
-// />
+<Geolocation
+  lat={39.28756}
+  lng={-120.19987}
+  noGeolocation
+/>
 ```
 
 Lat and Lng are given to this component from Parent.

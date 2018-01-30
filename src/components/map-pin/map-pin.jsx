@@ -24,10 +24,10 @@ const styles = theme => ({
     color: theme.palette.secondary.A200,
   },
   start: {
-    color: '#880000',
+    color: '#00aa00',
   },
   end: {
-    color: '#00cc00',
+    color: '#aa0000',
   },
 });
 

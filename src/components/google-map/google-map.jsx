@@ -6,11 +6,12 @@ import Dimensions from 'react-dimensions';
 import { fitBounds } from 'google-map-react/utils';
 import { lineString } from '@turf/helpers';
 import bbox from '@turf/bbox';
-import MapPin from '../map-pin';
+import Vignette from '@hypersprite/react-vignette';
 
+import MapPin from '../map-pin';
 import ViewRouteMapPolylineDraw from './google-map-polyline-draw';
 import googleMapStyles from './map-styles';
-import Vignette from '../vignette';
+
 
 class ExtGoogleMapWithPolyline extends React.Component {
 
@@ -93,15 +94,15 @@ class ExtGoogleMapWithPolyline extends React.Component {
           >
             { this.state.mapLoaded &&
               <MapPin
-                lat={this.mapData[this.mapData.length - 1].lat}
-                lng={this.mapData[this.mapData.length - 1].lng}
+                lat={this.mapData[0].lat}
+                lng={this.mapData[0].lng}
                 color="start"
               />
             }
             { this.state.mapLoaded &&
               <MapPin
-                lat={this.mapData[0].lat}
-                lng={this.mapData[0].lng}
+                lat={this.mapData[this.mapData.length - 1].lat}
+                lng={this.mapData[this.mapData.length - 1].lng}
                 color="end"
               />
             }

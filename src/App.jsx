@@ -12,9 +12,9 @@ import ColorBox from './components/colorbox';
 import Footer from './components/footer';
 import Geolocation from './components/geolocation';
 import GoogleMap from './components/google-map';
+import FormGeoLatLng from './components/form-geo-lat-lng';
 import Hero from './components/hero';
 import LayoutSimple from './components/layout-simple';
-import Loading from './components/loading';
 
 import PoweredByStrava from './assets/api_logo_pwrdBy_strava_horiz_gray.svg';
 import routeData from './components/__test__/data-apiv1-strava-routes-id.json';
@@ -41,6 +41,16 @@ class App extends Component {
             <Reboot />
             <AppBar rightLink="" leftLink="" title="Demo AppBar" /> {/* icon={<ARAIcon color="primary" inverse size="md" />} */}
             <Hero backgroundImageWide={lrgImage} backgroundImageNarrow={smlImage} />
+            <FormGeoLatLng
+              lat={37.41779306817996}
+              lng={-122.26177170119325}
+              noGeolocation
+            />
+            <Geolocation
+              lat={39.28756}
+              lng={-120.19987}
+              noGeolocation
+            />
             <GoogleMap
               mapPolyline={routeData.map.polyline}
             />
@@ -59,7 +69,7 @@ class App extends Component {
               <ColorBox palette={deepRed.palette} name="styles/deep-red.palette" />
               <Card />
               {/* <Loading /> */}
-              {/* <Geolocation /> */}
+
             </Paper>
             <Footer
               brand="rcrsv.com"
