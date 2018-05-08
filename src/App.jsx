@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles';
-import Reboot from 'material-ui/Reboot';
+import CssBaseline from 'material-ui/CssBaseline';
 import Paper from 'material-ui/Paper';
 import Typography from 'material-ui/Typography';
 
 import ActivitySingle from './components/activity-single';
 import AppBar from './components/app-bar';
 import BarChartBox from './components/bar-chart-box';
+import ChartBarSingleHorz from './components/charts/bar-single-horz';
 import Card from './components/card';
 import ColorBox from './components/colorbox';
 import Footer from './components/footer';
@@ -17,7 +18,7 @@ import Hero from './components/hero';
 import LayoutSimple from './components/layout-simple';
 
 import PoweredByStrava from './assets/api_logo_pwrdBy_strava_horiz_gray.svg';
-import routeData from './components/__test__/data-apiv1-strava-routes-id.json';
+import routeData from './components/__test__/data-apiv1-strava-routes-01.json';
 import oldTheme from './styles/theme';
 import palette from './styles/mui-palette';
 import typography from './styles/mui-typography';
@@ -38,7 +39,7 @@ class App extends Component {
       <MuiThemeProvider theme={theme} >
         <Typography component="body1" >
           <div className="App" >
-            <Reboot />
+            <CssBaseline />
             <AppBar rightLink="" leftLink="" title="Demo AppBar" /> {/* icon={<ARAIcon color="primary" inverse size="md" />} */}
             <Hero backgroundImageWide={lrgImage} backgroundImageNarrow={smlImage} />
             <FormGeoLatLng
@@ -54,7 +55,9 @@ class App extends Component {
             <GoogleMap
               mapPolyline={routeData.map.polyline}
             />
+
             <Paper style={{ backgroundColor: '#eeeeee' }} >
+              <ChartBarSingleHorz />
               <ActivitySingle />
               <BarChartBox />
               <LayoutSimple />

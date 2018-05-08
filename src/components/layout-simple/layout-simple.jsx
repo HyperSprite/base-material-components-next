@@ -47,8 +47,8 @@ function ExtLayoutSimple(props) {
   return (
     <div className={classes.root}>
       <Grid container spacing={0}>
-        <Grid item xs />
-        <Grid item xs={9}>
+        <Grid item xs sm={1} md={2} />
+        <Grid item xs={12} sm={10} md={8} >
           <Paper className={classes.paper}>
             {listIconValues.map(lIV => (
               <Card key={lIV.key} className={classes.card} >
@@ -64,7 +64,7 @@ function ExtLayoutSimple(props) {
             ))}
           </Paper>
         </Grid>
-        <Grid item xs />
+        <Grid item xs sm={1} md={2} />
       </Grid>
     </div>
   );
